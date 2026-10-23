@@ -44,7 +44,7 @@
 Hisn - Private, Fast Browser
 
 **Short description (max 80):**
-Arabic-first browser that blocks ads and trackers, downloads fast, collects nothing.
+Arabic-first browser that blocks ads and trackers and collects nothing.
 
 **Full description:**
 Hisn (Arabic for “fortress”) is an Android browser that puts your privacy first. No accounts, no analytics, no ads, no servers: your history, bookmarks and downloads stay on your phone.

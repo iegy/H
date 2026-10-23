@@ -6,7 +6,6 @@
 - `en/index.html` — الصفحة الإنجليزية
 - `assets/` — التنسيق والشعار
 
-ملف التطبيق يُرفع في [Releases](https://github.com/iegy/H/releases) باسم `Hisn.apk`، وزر التحميل في الموقع يشير دائماً إلى أحدث إصدار:
-`https://github.com/iegy/H/releases/latest/download/Hisn.apk`
+ملف التطبيق موجود في `download/Hisn.apk`، وزرّا التحميل في الصفحتين يشيران إليه. لتحديث النسخة: استبدل الملف، وحدّث الإصدار والحجم وبصمة SHA-256 في `index.html` و`en/index.html`.
 
 تصميم وتطوير Mohammed Hussein | [iegy.net](https://iegy.net/) — © 2026 All rights reserved.

@@ -24,6 +24,7 @@
 <h2>What HISN stores on your device</h2>
 <ul>
 <li>Browsing history (page title, address and visit time) from regular tabs only. You can delete single entries or clear a time range at any time.</li>
+<li>Passwords you choose to save, encrypted with a key in the Android Keystore that opens only with your fingerprint or screen lock. They are never uploaded or synced, and are never saved in private windows.</li>
 <li>Bookmarks, bookmark folders and start-page shortcuts that you create.</li>
 <li>Settings (theme, language, search engine, blocking options, allowlist).</li>
 <li>A list of your downloads. The downloaded files themselves are saved in your device&#x27;s Downloads folder by Android&#x27;s download manager.</li>
@@ -57,7 +58,7 @@
 <h2>Ad and tracker blocking</h2>
 <p>Blocking works by matching the domain of each page resource against a local list, on your device. HISN does not inspect encrypted traffic and does not install any certificate. It cannot hide page elements (cosmetic filtering) and cannot block ads served from the same domain as the content. Blocking can be turned off globally or per site.</p>
 <h2>Security</h2>
-<p>HISN keeps TLS certificate validation on, never bypasses certificate errors, uses Safe Browsing where Android System WebView supports it, blocks mixed content, does not allow web pages to read local files, and exposes no JavaScript interface to websites.</p>
+<p>HISN keeps TLS certificate validation on, never bypasses certificate errors, uses Safe Browsing where Android System WebView supports it, blocks mixed content, does not allow web pages to read local files, and exposes no JavaScript interface to websites. The only page-to-app channel is a one-way message used by the password manager, accepted only from the top page of an https site, and only when you sign in.</p>
 <h2>Backups</h2>
 <p>HISN&#x27;s data is excluded from Android cloud backup and device-to-device transfer.</p>
 <h2>Changes</h2>

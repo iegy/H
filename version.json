@@ -2,8 +2,8 @@
   "versionCode": 425234,
   "versionName": "1.1.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 65304730,
-  "sha256": "6f0d843f3d18743148bc7df454878fabc5e4933d3e76b3cb00ae6232145e614e",
+  "size": 5856704,
+  "sha256": "2f8b74fd05b2e02ab4169a0c555480140e34eb010b979411ce6a7c48a5839ef2",
   "notesAr": "تحميل الملفات التي تنشئها الصفحات (blob)، البحث عن التحديثات من داخل التطبيق، ألوان وخط جديد، شريط العنوان في الأعلى وشريط تبويبات للتابلت، حاجب المواقع، وحفظ الصفحة.",
   "notesEn": "Downloads of files created by pages (blob), in-app update check, new colours and font, top address bar and a tablet tab strip, website blocker, and save page."
 }

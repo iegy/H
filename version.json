@@ -1,9 +1,9 @@
 {
-  "versionCode": 425383,
-  "versionName": "1.1.2",
+  "versionCode": 425848,
+  "versionName": "1.2.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 5858532,
-  "sha256": "451f52d37e844bb1738bf72791ec63cddfbd127e06a3b799fbc988e2c1de1543",
-  "notesAr": "زر تحميل التحديث في الإعدادات، والصفحات تعود تلقائياً بعد أن يغلقها أندرويد لتوفير الذاكرة بدلاً من شاشة «توقفت هذه الصفحة».",
-  "notesEn": "Download button for updates in Settings, and pages come back by themselves after Android closes them to save memory instead of showing \"This page stopped working\"."
+  "size": 5926036,
+  "sha256": "4adb35422c0965e389a2dcb7300602459b86bad0b096c6b1d5291502332f5883",
+  "notesAr": "استيراد المفضلة والسجل من كروم والمتصفحات الأخرى، تصدير المفضلة، اقتراحات البحث، إعدادات كل موقع، القراءة بصوت عالٍ، وتصفح أسرع وأنعم.",
+  "notesEn": "Import bookmarks and history from Chrome and other browsers, bookmark export, search suggestions, per-site settings, read aloud, and faster, smoother browsing."
 }

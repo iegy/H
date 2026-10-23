@@ -1,9 +1,9 @@
 {
-  "versionCode": 425848,
-  "versionName": "1.2.0",
+  "versionCode": 425887,
+  "versionName": "1.3.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 5926036,
-  "sha256": "4adb35422c0965e389a2dcb7300602459b86bad0b096c6b1d5291502332f5883",
-  "notesAr": "استيراد المفضلة والسجل من كروم والمتصفحات الأخرى، تصدير المفضلة، اقتراحات البحث، إعدادات كل موقع، القراءة بصوت عالٍ، وتصفح أسرع وأنعم.",
-  "notesEn": "Import bookmarks and history from Chrome and other browsers, bookmark export, search suggestions, per-site settings, read aloud, and faster, smoother browsing."
+  "size": 6042304,
+  "sha256": "4a9ad3f5e0b1df6dd9620129c9e1a69acade1e70cb589a875ca30082dd775b0b",
+  "notesAr": "مدير كلمات سر مشفّر يُفتح بالبصمة أو قفل الشاشة (حفظ وملء تلقائي ومولّد كلمات سر واستيراد من كروم)، وتاريخ ووقت كل تحميل.",
+  "notesEn": "Encrypted password manager unlocked with your fingerprint or screen lock (save, fill, generator, Chrome import), plus the date and time of each download."
 }

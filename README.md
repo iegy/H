@@ -6,6 +6,4 @@
 - `en/index.html` — الصفحة الإنجليزية
 - `assets/` — التنسيق والشعار
 
-ملف التطبيق موجود في `download/Hisn.apk`، وزرّا التحميل في الصفحتين يشيران إليه. لتحديث النسخة: استبدل الملف، وحدّث الإصدار والحجم وبصمة SHA-256 في `index.html` و`en/index.html`، وحدّث `version.json` (رقم الإصدار versionCode لازم يكون أكبر من السابق) لأن التطبيق يقرأه ليعرض إشعار التحديث.
-
-تصميم وتطوير Mohammed Hussein | [iegy.net](https://iegy.net/) — © 2026 All rights reserved.
+ملف التطبيق موجود في `download/Hisn.apk`. النشر يتم تلقائياً من ريبو Hisn (workflow «Build Hisn APK» مع خيار «نشر على الموقع») عن طريق `tools/publish.py`، اللي بيحدّث الملف و`version.json` (اللي التطبيق بيقرأه للتحديث) والإصدار والحجم وبصمة SHA-256 في الصفحتين.

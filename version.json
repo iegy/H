@@ -1,9 +1,9 @@
 {
-  "versionCode": 425342,
-  "versionName": "1.1.1",
+  "versionCode": 425383,
+  "versionName": "1.1.2",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 5858652,
-  "sha256": "fb237f0342428f8058baa5812284cf31a2608cb2198f98da084e117a146fe3a9",
-  "notesAr": "إصلاح تشغيل يوتيوب في الخلفية على الموبايل: يستمر الصوت بعد الخروج من حصن أو قفل الشاشة، مع إشعار فيه زر إيقاف.",
-  "notesEn": "Fixes YouTube background playback on phones: audio keeps playing after leaving Hisn or locking the screen, with a notification that has a Stop button."
+  "size": 5858532,
+  "sha256": "451f52d37e844bb1738bf72791ec63cddfbd127e06a3b799fbc988e2c1de1543",
+  "notesAr": "زر تحميل التحديث في الإعدادات، والصفحات تعود تلقائياً بعد أن يغلقها أندرويد لتوفير الذاكرة بدلاً من شاشة «توقفت هذه الصفحة».",
+  "notesEn": "Download button for updates in Settings, and pages come back by themselves after Android closes them to save memory instead of showing \"This page stopped working\"."
 }

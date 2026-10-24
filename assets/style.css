@@ -224,3 +224,47 @@ p { margin: 0; max-width: 62ch; }
 .site-foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; align-items: center; }
 .site-foot a { color: var(--paper); }
 .site-foot .brand span { color: var(--paper); }
+
+/* ---------- Highlights: the six big things ---------- */
+.highlights { padding-block: 88px 24px; }
+.hl-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.hl {
+  position: relative; overflow: hidden;
+  border-radius: var(--radius-l);
+  padding: 28px 26px 26px;
+  background: linear-gradient(155deg, var(--fortress-2), var(--fortress) 70%);
+  color: var(--paper);
+  display: grid; gap: 10px; align-content: start;
+  min-height: 230px;
+  box-shadow: 0 18px 40px -24px rgba(15, 59, 40, .6);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.hl:hover { transform: translateY(-4px); box-shadow: 0 26px 48px -24px rgba(15, 59, 40, .7); }
+@media (prefers-reduced-motion: reduce) { .hl, .hl:hover { transition: none; transform: none; } }
+.hl::after {
+  content: ""; position: absolute; inset-inline-end: -40px; top: -40px; width: 160px; height: 160px;
+  border: 2px solid rgba(184, 138, 62, .35); transform: rotate(45deg); border-radius: 18px;
+}
+.hl .ico { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; background: rgba(184, 138, 62, .18); color: var(--brass-soft); }
+.hl .ico svg { width: 28px; height: 28px; }
+.hl h3 { font-size: 1.35rem; }
+.hl p { color: #c3dccd; font-size: .98rem; }
+.hl .tag { justify-self: start; font-size: .78rem; font-weight: 600; color: #1b1408; background: var(--brass-soft); border-radius: 999px; padding: 2px 12px; }
+.hl.gold { background: linear-gradient(155deg, #c99a4b, #8a6326 75%); }
+.hl.gold p { color: #fbefd8; }
+.hl.gold .ico { background: rgba(255,255,255,.18); color: #fff; }
+@media (max-width: 960px) { .hl-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .hl-grid { grid-template-columns: 1fr; } .hl { min-height: 0; } }
+
+/* ---------- Every feature as chips ---------- */
+.all-features { background: var(--paper); border-block: 1px solid var(--line); }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.chips li {
+  border: 1px solid var(--line); background: var(--stone); border-radius: 999px;
+  padding: 6px 16px; font-size: .95rem; color: var(--fortress-2);
+}
+.chips li.new { border-color: var(--brass); background: #fbf3e4; }
+.chips li.new::after { content: " ✦"; color: var(--brass); }
+.chip-groups { display: grid; gap: 28px; }
+.chip-groups h3 { font-family: var(--body); font-size: 1rem; color: var(--ink-soft); margin-bottom: 10px; }
+.section.all-features, .section.all-features + .section { padding-top: 96px; }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 426504,
-  "versionName": "1.7.3",
+  "versionCode": 426864,
+  "versionName": "1.8.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 8603827,
-  "sha256": "08ddd6db39ddc38e3112c57523bbe589de99ddc8d4c744067d52c0f256bc86ab",
-  "notesAr": "إصلاح توقف التطبيق عند فتح الصفحات بعد إضافة سحب الصفحة لإعادة التحميل.",
-  "notesEn": "Fixes a crash when opening pages, introduced with pull-to-refresh."
+  "size": 8727789,
+  "sha256": "dcb60cfe92b4fde0776cd96ae4e68130d1c49d40b3b6a3ec2facf4c04d20e13a",
+  "notesAr": "جسر لأي جهاز: أرسل واستقبل الملفات مع أي كمبيوتر أو آيفون من المتصفح مباشرة، بدون تطبيق وبدون إنترنت",
+  "notesEn": "Jisr for any device: send and receive files with any computer or iPhone from its browser, no app and no internet"
 }

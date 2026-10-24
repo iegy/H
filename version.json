@@ -1,9 +1,9 @@
 {
-  "versionCode": 426289,
-  "versionName": "1.5.1",
+  "versionCode": 426293,
+  "versionName": "1.5.2",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 8397090,
-  "sha256": "27e0ac0f131f41a07bf2a329373a117b0203f6365dc98174ab225da00090f1ff",
-  "notesAr": "شريط العنوان أصبح مثل كروم: بطاقة الصفحة الحالية (تعديل ونسخ ومشاركة)، الاختصارات، وعمليات البحث والصفحات الأخيرة مع سهم لوضعها في الشريط.",
-  "notesEn": "Chrome-style address bar: current page card (edit, copy, share), shortcuts, and recent searches and pages with an arrow to put them in the bar."
+  "size": 8397118,
+  "sha256": "87e284bc7bc9f7dc9031d90b2c494cf754253768a62d40406767256ebd8b2fde",
+  "notesAr": "إصلاح توقف التطبيق عند تشغيل فيديو أو صوت من الجهاز في مشغّل حصن، مع شريط عنوان مثل كروم.",
+  "notesEn": "Fixes a crash when playing a video or song from the device in the Hisn player; Chrome-style address bar."
 }

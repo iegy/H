@@ -1,9 +1,9 @@
 {
-  "versionCode": 426273,
-  "versionName": "1.5.0",
+  "versionCode": 426289,
+  "versionName": "1.5.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 8379486,
-  "sha256": "a2a08e04f1ffd8b902b0aa0418b76ff2395b517d655137ee7973ae22b2833c2b",
-  "notesAr": "مشغّل ميديا مدمج للفيديو والصوت (تشغيل في الخلفية، صورة داخل صورة، إيماءات للصوت والإضاءة والتقديم) وعارض صور ونصوص، وزر للإبلاغ عن مشكلة أو اقتراح فكرة، وتقرير عند التوقف المفاجئ.",
-  "notesEn": "Built-in media player for video and audio (background play, picture-in-picture, volume/brightness/seek gestures), picture and text viewer, report a problem or suggest an idea, and crash reports."
+  "size": 8397090,
+  "sha256": "27e0ac0f131f41a07bf2a329373a117b0203f6365dc98174ab225da00090f1ff",
+  "notesAr": "شريط العنوان أصبح مثل كروم: بطاقة الصفحة الحالية (تعديل ونسخ ومشاركة)، الاختصارات، وعمليات البحث والصفحات الأخيرة مع سهم لوضعها في الشريط.",
+  "notesEn": "Chrome-style address bar: current page card (edit, copy, share), shortcuts, and recent searches and pages with an arrow to put them in the bar."
 }

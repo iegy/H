@@ -1,9 +1,9 @@
 {
-  "versionCode": 426460,
-  "versionName": "1.7.0",
+  "versionCode": 426475,
+  "versionName": "1.7.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 8587138,
-  "sha256": "998f520fdb1ff753dfd09884f99bd59e35872510f2fae003109f7b6a1e698f56",
-  "notesAr": "جسر حصن: مشاركة الملفات بين الأجهزة بدون إنترنت عبر شبكة واي فاي خاصة، مشفّرة، بمسح كود أو من قائمة الأجهزة القريبة، ومن «مشاركة» في أي تطبيق.",
-  "notesEn": "Hisn Jisr: share files between devices without internet over a private Wi-Fi, encrypted, by scanning a code or from the nearby list, and from \"Share\" in any app."
+  "size": 8587443,
+  "sha256": "95400905500505e8c20e10d206d10b3e297ec51b4331cf05c814a811a9ebd2ea",
+  "notesAr": "اسحب الصفحة لأسفل من أعلاها لإعادة تحميلها، مثل كروم.",
+  "notesEn": "Pull down at the top of a page to reload it, like Chrome."
 }

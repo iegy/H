@@ -1,9 +1,9 @@
 {
-  "versionCode": 426864,
-  "versionName": "1.8.0",
+  "versionCode": 426905,
+  "versionName": "1.8.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 8727789,
-  "sha256": "dcb60cfe92b4fde0776cd96ae4e68130d1c49d40b3b6a3ec2facf4c04d20e13a",
-  "notesAr": "جسر لأي جهاز: أرسل واستقبل الملفات مع أي كمبيوتر أو آيفون من المتصفح مباشرة، بدون تطبيق وبدون إنترنت",
-  "notesEn": "Jisr for any device: send and receive files with any computer or iPhone from its browser, no app and no internet"
+  "size": 8728345,
+  "sha256": "17b4e13abfb6aa5483e0f12047f0ca89f5de8be5850a2c739f71a81c8fff74cc",
+  "notesAr": "تنظيم صفحة «جسر لأي جهاز» على الكمبيوتر والموبايل: منطقة رفع واضحة، وقائمة ملفات مرتبة، وحافظة مشتركة جنبًا إلى جنب",
+  "notesEn": "Tidier \"Jisr for any device\" page on computers and phones: a clear upload area, a neat file list, and the shared clipboard side by side"
 }

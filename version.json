@@ -1,9 +1,9 @@
 {
-  "versionCode": 426230,
-  "versionName": "1.4.1",
+  "versionCode": 426273,
+  "versionName": "1.5.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 6183848,
-  "sha256": "27bef4bee0688f2e3c9954b0048c9c91264be1e5d6083b6961246f62b77737ed",
-  "notesAr": "إصلاح توقف الفيديو عند تكبيره لملء الشاشة، واستمرار تشغيله في الخلفية وهو بملء الشاشة.",
-  "notesEn": "Fixes video pausing when it goes fullscreen, and keeps fullscreen video playing in the background."
+  "size": 8379486,
+  "sha256": "a2a08e04f1ffd8b902b0aa0418b76ff2395b517d655137ee7973ae22b2833c2b",
+  "notesAr": "مشغّل ميديا مدمج للفيديو والصوت (تشغيل في الخلفية، صورة داخل صورة، إيماءات للصوت والإضاءة والتقديم) وعارض صور ونصوص، وزر للإبلاغ عن مشكلة أو اقتراح فكرة، وتقرير عند التوقف المفاجئ.",
+  "notesEn": "Built-in media player for video and audio (background play, picture-in-picture, volume/brightness/seek gestures), picture and text viewer, report a problem or suggest an idea, and crash reports."
 }

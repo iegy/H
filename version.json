@@ -1,9 +1,9 @@
 {
-  "versionCode": 426475,
-  "versionName": "1.7.1",
+  "versionCode": 426486,
+  "versionName": "1.7.2",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 8587443,
-  "sha256": "95400905500505e8c20e10d206d10b3e297ec51b4331cf05c814a811a9ebd2ea",
-  "notesAr": "اسحب الصفحة لأسفل من أعلاها لإعادة تحميلها، مثل كروم.",
-  "notesEn": "Pull down at the top of a page to reload it, like Chrome."
+  "size": 8603827,
+  "sha256": "acd58bf3630cb6239a5c362cd508874c22584c2000506cf54676df4379f066ca",
+  "notesAr": "إصلاح توقف التطبيق عند اختيار «صور وفيديو» في جسر حصن، وسحب الصفحة لإعادة التحميل.",
+  "notesEn": "Fixes a crash when choosing \"Photos & videos\" in Hisn Jisr; pull down to reload a page."
 }

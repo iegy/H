@@ -1,9 +1,9 @@
 {
-  "versionCode": 426186,
-  "versionName": "1.4.0",
+  "versionCode": 426230,
+  "versionName": "1.4.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 6183852,
-  "sha256": "5a0d93e0db29b74c392a210bbb7195fb189052b4bda4379813c525e67735ae28",
-  "notesAr": "الفيديو بملء الشاشة يكمل تشغيل ويدور أفقيًا ويملأ الشاشة، قائمة جديدة منظمة، إعدادات مقسّمة لأقسام، ولعبة جديدة «مغامرة حصن» بثماني مراحل.",
-  "notesEn": "Fullscreen video keeps playing, turns sideways and fills the screen; a new organized menu; settings grouped by category; and a new game, Hisn Quest, with eight levels."
+  "size": 6183848,
+  "sha256": "27bef4bee0688f2e3c9954b0048c9c91264be1e5d6083b6961246f62b77737ed",
+  "notesAr": "إصلاح توقف الفيديو عند تكبيره لملء الشاشة، واستمرار تشغيله في الخلفية وهو بملء الشاشة.",
+  "notesEn": "Fixes video pausing when it goes fullscreen, and keeps fullscreen video playing in the background."
 }

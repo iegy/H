@@ -1,9 +1,9 @@
 {
-  "versionCode": 426293,
-  "versionName": "1.5.2",
+  "versionCode": 426353,
+  "versionName": "1.6.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 8397118,
-  "sha256": "87e284bc7bc9f7dc9031d90b2c494cf754253768a62d40406767256ebd8b2fde",
-  "notesAr": "إصلاح توقف التطبيق عند تشغيل فيديو أو صوت من الجهاز في مشغّل حصن، مع شريط عنوان مثل كروم.",
-  "notesEn": "Fixes a crash when playing a video or song from the device in the Hisn player; Chrome-style address bar."
+  "size": 8480246,
+  "sha256": "f632be038dd8de09b85a451322944b02b91582bf416318028bf99774eb2402f6",
+  "notesAr": "مزامنة بين أجهزتك عبر ملف مشفّر تحتفظ به أنت (المفضلة والسجل والاختصارات والتبويبات وكلمات السر)، وأيقونات المواقع، وإصلاحات للثبات.",
+  "notesEn": "Sync between your devices through an encrypted file you keep (bookmarks, history, shortcuts, tabs, passwords), site icons, and stability fixes."
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000003,
-  "versionName": "1.0.3",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.3/Hisn-Setup-1.0.3.msi",
+  "versionCode": 1000004,
+  "versionName": "1.0.4",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.4/Hisn-Setup-1.0.4.msi",
   "size": 114119552,
-  "sha256": "0ed2a3f7d9f9b53ef6d420a5d29335434cb352ec54855b5cde9eae915763ffa4",
-  "notesAr": "إصلاح محتمل لقفل التطبيق عند تشغيل المحرك: تحديد لغة Chromium صراحةً",
-  "notesEn": "Possible fix for the app closing when the engine starts: set the Chromium locale explicitly"
+  "sha256": "94af2e5b49dd883c3abf03c426005b09a4af95248860a80f50fdb5c2c39f531d",
+  "notesAr": "إصلاح محتمل لقفل المحرك: تحديد مكان ملفات اللغة والموارد لـ Chromium صراحةً",
+  "notesEn": "Possible fix for the engine exiting at start: pass Chromium the real locales/resources folders"
 }

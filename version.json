@@ -1,9 +1,9 @@
 {
-  "versionCode": 426905,
-  "versionName": "1.8.1",
+  "versionCode": 427753,
+  "versionName": "1.9.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 8728345,
-  "sha256": "17b4e13abfb6aa5483e0f12047f0ca89f5de8be5850a2c739f71a81c8fff74cc",
-  "notesAr": "تنظيم صفحة «جسر لأي جهاز» على الكمبيوتر والموبايل: منطقة رفع واضحة، وقائمة ملفات مرتبة، وحافظة مشتركة جنبًا إلى جنب",
-  "notesEn": "Tidier \"Jisr for any device\" page on computers and phones: a clear upload area, a neat file list, and the shared clipboard side by side"
+  "size": 9332224,
+  "sha256": "70d1be849323aac407be26b594f53ba2b269470267c757325dcbbd4fb446b029",
+  "notesAr": "نسخ احتياطي تلقائي مشفّر لكل بياناتك على Google Drive: كلمات السر والإشارات والسجل والإعدادات والملفات الشخصية والألعاب",
+  "notesEn": "Automatic encrypted backup of everything to Google Drive: passwords, bookmarks, history, settings, profiles and games"
 }

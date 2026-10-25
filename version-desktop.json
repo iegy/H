@@ -1,9 +1,9 @@
 {
-  "versionCode": 1002000,
-  "versionName": "1.2.0",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.2.0/Hisn-Setup-1.2.0.msi",
-  "size": 118523052,
-  "sha256": "17cb4a38b8428fa12ca5e2930569563e8319ec906e9e2e13b17e7a830013485f",
-  "notesAr": "بحث في الصفحة (Ctrl+F)، زوم (Ctrl +/-/0)، طباعة وحفظ الصفحة PDF أو HTML وعرض المصدر، قائمة تنزيلات مع التقدم والإلغاء، استيراد المفضلة والسجل من متصفح آخر (bookmarks.html أو Takeout) وتصدير المفضلة، وضع HTTPS فقط، إشارة الخصوصية GPC، مسح كوكيز موقع أو الكل، قائمة المواقع المستثناة من الحظر، ورمز QR للصفحة",
-  "notesEn": "Find in page (Ctrl+F), zoom (Ctrl +/-/0), print and save as PDF/HTML, view source, downloads list with progress/cancel, import bookmarks/history from other browsers (bookmarks.html or Takeout) and export bookmarks, HTTPS-only mode, Global Privacy Control, clear site/all cookies, allowlist management, QR code for the page"
+  "versionCode": 1003000,
+  "versionName": "1.3.0",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.3.0/Hisn-Setup-1.3.0.msi",
+  "size": 118662316,
+  "sha256": "2bbdd87e66d503491bd1556e9dc76d3ff44dfa206d8d73fd4038e276f74a8e25",
+  "notesAr": "حظر المواقع بالفئات وقائمتك الخاصة، أيقونات المواقع في التبويبات، اقتراحات شريط العنوان (من المفضلة والسجل واختيارياً من محرك البحث)، قراءة الصفحة بصوت عالي، ترجمة الصفحة، قراءة رمز QR من صورة، وقفل التطبيق بكلمة مرور",
+  "notesEn": "Website blocker by category and your own list, site icons on tabs, address-bar suggestions (favorites, history, optionally the search engine), read page aloud, translate page, scan QR from an image, app password lock"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000005,
-  "versionName": "1.0.5",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.5/Hisn-Setup-1.0.5.msi",
-  "size": 114119552,
-  "sha256": "ae1af7be0cd41e45a50b8f9741652e1d767c24a2624a392bea4aa211c689fe25",
-  "notesAr": "إصلاح قفل التطبيق: استخدام ملف jcef_helper.exe الحقيقي الذي نزل مع المحرك، وإزالة نافذة التشخيص السوداء",
-  "notesEn": "Fix the app closing at start: use the downloaded engine's own jcef_helper.exe; remove the diagnostic console window"
+  "versionCode": 1000006,
+  "versionName": "1.0.6",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.6/Hisn-Setup-1.0.6.msi",
+  "size": 114152320,
+  "sha256": "582493a27ae37ef4983ac7874bdc43db93ff3e210b09db0581ee04b867938db5",
+  "notesAr": "بطاقة رفيقي بمواقيت الصلاة الحقيقية (الصلاة القادمة والمتبقي) مع القرآن والأذكار والسبحة، واختيار المدينة من الإعدادات، والواجهة بالعربي افتراضياً",
+  "notesEn": "Real Rafiqi card with on-device prayer times (next prayer, time left), Quran/Azkar/Tasbih shortcuts, city choice in settings, Arabic by default"
 }

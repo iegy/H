@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000002,
-  "versionName": "1.0.2",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.2/Hisn-Setup-1.0.2.msi",
-  "size": 114115456,
-  "sha256": "b902a544a81d71472a08265f55513a25cd3abdc103ed38ff23a570a7ebef05db",
-  "notesAr": "نسخة تجريبية: تشغيل المحرك بإعدادات احتياطية (بدون sandbox وبدون تسريع الشاشة) مع سجل تفصيلي",
-  "notesEn": "Trial build: conservative Chromium start-up (no sandbox, no GPU) with a verbose engine log"
+  "versionCode": 1000003,
+  "versionName": "1.0.3",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.3/Hisn-Setup-1.0.3.msi",
+  "size": 114119552,
+  "sha256": "0ed2a3f7d9f9b53ef6d420a5d29335434cb352ec54855b5cde9eae915763ffa4",
+  "notesAr": "إصلاح محتمل لقفل التطبيق عند تشغيل المحرك: تحديد لغة Chromium صراحةً",
+  "notesEn": "Possible fix for the app closing when the engine starts: set the Chromium locale explicitly"
 }

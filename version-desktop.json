@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000001,
-  "versionName": "1.0.1",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.1/Hisn-Setup-1.0.1.msi",
+  "versionCode": 1000002,
+  "versionName": "1.0.2",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.2/Hisn-Setup-1.0.2.msi",
   "size": 114115456,
-  "sha256": "3388f376f0688b1419eda4f5312f327a5b710963edeccbca973d2a685bcf5855",
-  "notesAr": "نسخة تشخيصية: تسجيل مراحل تشغيل المحرك لمعرفة سبب قفل التطبيق بعد تنزيل المحرك",
-  "notesEn": "Diagnostics build: logs engine start-up stages to find why the app closes after the engine download"
+  "sha256": "b902a544a81d71472a08265f55513a25cd3abdc103ed38ff23a570a7ebef05db",
+  "notesAr": "نسخة تجريبية: تشغيل المحرك بإعدادات احتياطية (بدون sandbox وبدون تسريع الشاشة) مع سجل تفصيلي",
+  "notesEn": "Trial build: conservative Chromium start-up (no sandbox, no GPU) with a verbose engine log"
 }

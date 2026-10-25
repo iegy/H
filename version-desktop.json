@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000006,
-  "versionName": "1.0.6",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.6/Hisn-Setup-1.0.6.msi",
-  "size": 114152320,
-  "sha256": "582493a27ae37ef4983ac7874bdc43db93ff3e210b09db0581ee04b867938db5",
-  "notesAr": "بطاقة رفيقي بمواقيت الصلاة الحقيقية (الصلاة القادمة والمتبقي) مع القرآن والأذكار والسبحة، واختيار المدينة من الإعدادات، والواجهة بالعربي افتراضياً",
-  "notesEn": "Real Rafiqi card with on-device prayer times (next prayer, time left), Quran/Azkar/Tasbih shortcuts, city choice in settings, Arabic by default"
+  "versionCode": 1001000,
+  "versionName": "1.1.0",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.1.0/Hisn-Setup-1.1.0.msi",
+  "size": 117863572,
+  "sha256": "50d3a461dccad9f008c3bad44397c0b6390423bbf766c1ee05c5df7ad08156b0",
+  "notesAr": "الدخول بحساب جوجل ومزامنة مشفّرة مع حصن أندرويد (المفضلة والسجل والتبويبات المفتوحة وكلمات السر اختيارياً) عبر نفس صيغة النسخ الاحتياطي، ومدير كلمات سر (حفظ وتعبئة تلقائية واستيراد CSV) مشفّر ومقفول على حساب ويندوز، ولوحة \"أجهزتي\"",
+  "notesEn": "Google sign-in and end-to-end encrypted sync with Hisn for Android (bookmarks, history, open tabs, optional passwords) using the same backup format; password manager (save, autofill, CSV import) locked to the Windows account; \"My devices\" panel"
 }

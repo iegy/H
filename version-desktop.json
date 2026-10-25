@@ -1,9 +1,9 @@
 {
-  "versionCode": 1004000,
-  "versionName": "1.4.0",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.4.0/Hisn-Setup-1.4.0.msi",
-  "size": 118953132,
-  "sha256": "ace3fa08c4038352406416734432bdf5a876a1f4a2321584e4e26a8105c33ce1",
-  "notesAr": "مدير تحميل متقدم (اتصالات متعددة، إيقاف واستئناف، حد للسرعة) + التقاط فيديوهات HLS/DASH من الصفحة وحفظها MP4.",
-  "notesEn": "Advanced download manager (multi-connection, pause/resume, speed limit) and HLS/DASH video capture saved as MP4."
+  "versionCode": 1006001,
+  "versionName": "1.6.1",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.6.1/Hisn-Setup-1.6.1.msi",
+  "size": 121435166,
+  "sha256": "7eedcdec0aefad29a193a6b59ad66493c52491e7d396d95dcebb57333466f87c",
+  "notesAr": "إصلاح بناء النشر؛ يشمل دمج الصوت والفيديو المدمج وجسر والبروفايلات والألعاب.",
+  "notesEn": "Release build fix; includes built-in A/V merge, Jisr, profiles and games."
 }

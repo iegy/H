@@ -1,9 +1,9 @@
 {
-  "versionCode": 1003000,
-  "versionName": "1.3.0",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.3.0/Hisn-Setup-1.3.0.msi",
-  "size": 118662316,
-  "sha256": "2bbdd87e66d503491bd1556e9dc76d3ff44dfa206d8d73fd4038e276f74a8e25",
-  "notesAr": "حظر المواقع بالفئات وقائمتك الخاصة، أيقونات المواقع في التبويبات، اقتراحات شريط العنوان (من المفضلة والسجل واختيارياً من محرك البحث)، قراءة الصفحة بصوت عالي، ترجمة الصفحة، قراءة رمز QR من صورة، وقفل التطبيق بكلمة مرور",
-  "notesEn": "Website blocker by category and your own list, site icons on tabs, address-bar suggestions (favorites, history, optionally the search engine), read page aloud, translate page, scan QR from an image, app password lock"
+  "versionCode": 1004000,
+  "versionName": "1.4.0",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.4.0/Hisn-Setup-1.4.0.msi",
+  "size": 118953132,
+  "sha256": "ace3fa08c4038352406416734432bdf5a876a1f4a2321584e4e26a8105c33ce1",
+  "notesAr": "مدير تحميل متقدم (اتصالات متعددة، إيقاف واستئناف، حد للسرعة) + التقاط فيديوهات HLS/DASH من الصفحة وحفظها MP4.",
+  "notesEn": "Advanced download manager (multi-connection, pause/resume, speed limit) and HLS/DASH video capture saved as MP4."
 }

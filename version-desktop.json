@@ -1,9 +1,9 @@
 {
-  "versionCode": 1006001,
-  "versionName": "1.6.1",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.6.1/Hisn-Setup-1.6.1.msi",
-  "size": 121435166,
-  "sha256": "7eedcdec0aefad29a193a6b59ad66493c52491e7d396d95dcebb57333466f87c",
-  "notesAr": "إصلاح بناء النشر؛ يشمل دمج الصوت والفيديو المدمج وجسر والبروفايلات والألعاب.",
-  "notesEn": "Release build fix; includes built-in A/V merge, Jisr, profiles and games."
+  "versionCode": 1007000,
+  "versionName": "1.7.0",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.7.0/Hisn-Setup-1.7.0.msi",
+  "size": 121439261,
+  "sha256": "b608805ea97a97dfe2393ab9b6617af2aa40a6e8c5139fb5c8d9d9dc464d8e6a",
+  "notesAr": "تعطيل جافاسكريبت لكل موقع على حدة، إرسال ملاحظة بالإيميل، وتوحيد إعدادات مدير التحميل مع الأندرويد.",
+  "notesEn": "Per-site JavaScript switch, feedback by e-mail, download settings shared with Android."
 }

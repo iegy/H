@@ -1,9 +1,9 @@
 {
-  "versionCode": 427753,
-  "versionName": "1.9.0",
+  "versionCode": 427778,
+  "versionName": "1.9.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 9332224,
-  "sha256": "70d1be849323aac407be26b594f53ba2b269470267c757325dcbbd4fb446b029",
-  "notesAr": "نسخ احتياطي تلقائي مشفّر لكل بياناتك على Google Drive: كلمات السر والإشارات والسجل والإعدادات والملفات الشخصية والألعاب",
-  "notesEn": "Automatic encrypted backup of everything to Google Drive: passwords, bookmarks, history, settings, profiles and games"
+  "sha256": "e54f7e641afbbe6160ac83aaadf2bb84cc56f67f65b9c321946d17fc9e4fe178",
+  "notesAr": "إصلاح توقف حصن فجأة عند تحميل ملف أو عند ظهور نافذة سريعة (البصمة أو الأذونات) أثناء تشغيل الخلفية",
+  "notesEn": "Fixed Hisn closing suddenly when starting a download or when a quick prompt (fingerprint, permissions) appeared with background playback on"
 }

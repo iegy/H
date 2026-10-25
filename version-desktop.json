@@ -1,0 +1,9 @@
+{
+  "versionCode": 1000000,
+  "versionName": "1.0.0",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.0.0/Hisn-Setup.msi",
+  "size": 114115456,
+  "sha256": "f0a89ae78d7dfc1e1b33ef47df70aff6be698ac74d23ed9d1105524f7ec7e0aa",
+  "notesAr": "أول نسخة من حصن لويندوز: تبويبات، حجب إعلانات، مفضلة وسجل، تبويبات خاصة، وتحديث تلقائي",
+  "notesEn": "First Hisn for Windows release: tabs, ad blocking, favorites and history, private tabs, auto-update"
+}

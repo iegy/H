@@ -1,9 +1,9 @@
 {
-  "versionCode": 427778,
-  "versionName": "1.9.1",
+  "versionCode": 427801,
+  "versionName": "1.9.2",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 9332224,
-  "sha256": "e54f7e641afbbe6160ac83aaadf2bb84cc56f67f65b9c321946d17fc9e4fe178",
-  "notesAr": "إصلاح توقف حصن فجأة عند تحميل ملف أو عند ظهور نافذة سريعة (البصمة أو الأذونات) أثناء تشغيل الخلفية",
-  "notesEn": "Fixed Hisn closing suddenly when starting a download or when a quick prompt (fingerprint, permissions) appeared with background playback on"
+  "sha256": "dddb14d0aebc56aae3b862958e6b21977d3f27f59f59fb2d1e35bfea80a6be8c",
+  "notesAr": "التبويبات بقت تفضل محمّلة: كانت بتتفرّغ من الذاكرة كل مرة حصن يختفي لحظة (إشعار أو بصمة)، فترجع تحمّل",
+  "notesEn": "Tabs now stay loaded: they were unloaded every time Hisn was hidden for a moment (a notification or the fingerprint prompt), so they reloaded"
 }

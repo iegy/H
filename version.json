@@ -1,9 +1,9 @@
 {
-  "versionCode": 427886,
-  "versionName": "1.9.3",
+  "versionCode": 429108,
+  "versionName": "1.10.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 9547076,
-  "sha256": "81f049b79bc336f23d9e877ace54556a6d5d9ce4e97f813a21e717166898201f",
-  "notesAr": "لعبة جديدة «مو يجري»: اجري مع الروبوت مو في ٦ عوالم (الصحراء، مدينة النيون، الغابة، الجليد، القمر بجاذبية خفيفة، قلب السيرفر)",
-  "notesEn": "New game \"Mo Run\": run with robot Mo through 6 worlds (desert, neon city, jungle, ice, the low-gravity moon, the server core)"
+  "size": 9736888,
+  "sha256": "387ad9cd4ef9c3b5ef45303e42d774dcb3c50194d97c109227700e0f743ce4aa",
+  "notesAr": "ملاحظات بكلمة سر خاصة بيها، متشفّرة على التليفون، وبتتزامن بين أجهزتك وبتدخل في النسخة الاحتياطية على Drive (وممكن تفتحها بالبصمة)",
+  "notesEn": "Notes with their own password, encrypted on the phone, synced between your devices and included in the Drive backup (fingerprint unlock optional)"
 }

@@ -3,390 +3,417 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>حصن | متصفح أندرويد يحمي خصوصيتك</title>
-  <meta name="description" content="حصن متصفح أندرويد عربي يحجب الإعلانات والمتتبعات، ويشارك الملفات بدون إنترنت مع أي هاتف أو كمبيوتر، ويحفظ كلمات السر مشفّرة، ويشغّل الفيديو والصوت، ويزامن أجهزتك بدون خوادم. مجاني وبلا إعلانات.">
-  <meta name="theme-color" content="#0f3b28">
+  <title>حصن | متصفح يحجب الإعلانات ويحمّل الفيديو ويشارك بدون نت</title>
+  <meta name="description" content="حصن متصفح أندرويد عربي يحجب الإعلانات والمواقع الضارة، ويحمّل الفيديو والبث، وفيه إضافات زي كروم، ويشارك الملفات بدون إنترنت مع أي هاتف أو كمبيوتر. مجاني وبلا إعلانات ولا حسابات.">
+  <meta name="theme-color" content="#f8faf8">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" hreflang="en" href="en/">
-  <meta property="og:title" content="حصن | متصفح أندرويد يحمي خصوصيتك">
-  <meta property="og:description" content="متصفح ومشاركة ملفات بدون نت مع أي هاتف أو كمبيوتر وحافظة مشتركة ومدير كلمات سر ومشغّل ميديا وألعاب، في تطبيق عربي واحد يحمي خصوصيتك.">
+  <meta property="og:title" content="حصن | متصفح يحجب الإعلانات ويحمّل الفيديو ويشارك بدون نت">
+  <meta property="og:description" content="متصفح عربي بحاجب إعلانات وتحميل فيديو وإضافات ومشاركة ملفات بدون نت ومدير كلمات سر ومؤقّت بومودورو، بلا حسابات ولا خوادم.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
 <script data-goatcounter="https://hisn.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
 <a class="skip" href="#main">تخطَّ إلى المحتوى</a>
 
-<header class="site-head">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-dl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></symbol>
+    <symbol id="i-android" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.38.38 0 0 0-.66-.38l-1.86 3.22A11.4 11.4 0 0 0 12 8.1c-1.77 0-3.43.38-4.92 1.04L5.22 5.92a.38.38 0 0 0-.66.38L6.4 9.48A10.8 10.8 0 0 0 1 18h22a10.8 10.8 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></symbol>
+    <symbol id="i-win" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5l7.5-1v7H3zM11.5 4.3L21 3v8.5h-9.5zM3 12.5h7.5v7L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-puzzle" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 11H19V7a2 2 0 0 0-2-2h-4V3.5a2.5 2.5 0 0 0-5 0V5H4a2 2 0 0 0-2 2v3.8h1.5a2.7 2.7 0 0 1 0 5.4H2V20a2 2 0 0 0 2 2h3.8v-1.5a2.7 2.7 0 0 1 5.4 0V22H17a2 2 0 0 0 2-2v-4h1.5a2.5 2.5 0 0 0 0-5z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h14l-4-4M20 16H6l4 4"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></symbol>
+    <symbol id="i-pip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><rect x="12" y="11" width="7" height="6" rx="1.5" fill="currentColor"/></symbol>
+    <symbol id="i-head" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/></symbol>
+    <symbol id="i-speed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3.5 17a9 9 0 1 1 17 0"/><path d="M12 13l4-5"/><circle cx="12" cy="13" r="1.4" fill="currentColor"/></symbol>
+    <symbol id="i-cc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M10 10.5a2 2 0 1 0 0 3M17 10.5a2 2 0 1 0 0 3"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 21h6M10 17h4M12 3a6 6 0 0 0-3.5 10.9V17h7v-3.1A6 6 0 0 0 12 3z"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></symbol>
+    <symbol id="i-block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v10H4l5 6 5-6h-3V4z"/><path d="M15 8h6M15 12h4"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></symbol>
+    <symbol id="i-bar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M3 12h11"/><path d="M17 12h4" opacity=".4"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+    <symbol id="i-timer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M9 11h6M9 15h4"/></symbol>
+    <symbol id="i-qr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM18 18h3v3"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4M15 11h.01M18 13h.01"/></symbol>
+    <symbol id="i-voice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9v6M8 6v12M12 3v18M16 7v10M20 10v4"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M7 18a5 5 0 0 1-.6-10A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/><path d="M12 11v5M10 14l2 2 2-2"/></symbol>
+    <symbol id="i-moon2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  </defs>
+</svg>
+
+<header class="top">
   <div class="wrap">
-    <a class="brand" href="./" aria-label="حصن، الصفحة الرئيسية">
-      <img src="assets/logo.svg" alt="" width="30" height="40">
-      <span>حصن</span>
-    </a>
-    <nav class="head-links" aria-label="روابط الموقع">
-      <a class="opt" href="#features">الخصائص</a>
-      <a class="opt" href="#install">التثبيت</a>
-      <a class="opt" href="#faq">أسئلة</a>
-      <a class="lang" href="en/" hreflang="en" lang="en">English</a>
+    <a class="brand" href="./" aria-label="حصن، الصفحة الرئيسية"><img src="assets/logo.svg" alt="" width="24" height="32"><span>حصن</span></a>
+    <nav class="nav" aria-label="أقسام الموقع">
+      <a href="#video">الفيديو</a>
+      <a href="#blocking">حجب الإعلانات</a>
+      <a href="#extensions">الإضافات</a>
+      <a href="#compare">المقارنة</a>
+      <a href="#faq">أسئلة</a>
     </nav>
+    <div class="top-end">
+      <a class="lang" href="en/" hreflang="en" lang="en">English</a>
+      <a class="pill-dark" href="#install">حمّل حصن</a>
+    </div>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="lattice" aria-hidden="true">
-      <svg>
-        <defs>
-          <pattern id="khatam" width="80" height="80" patternUnits="userSpaceOnUse">
-            <g fill="none" stroke="currentColor" stroke-width="1.4">
-              <path d="M40,14 L47.62,21.62 L58.38,21.62 L58.38,32.38 L66,40 L58.38,47.62 L58.38,58.38 L47.62,58.38 L40,66 L32.38,58.38 L21.62,58.38 L21.62,47.62 L14,40 L21.62,32.38 L21.62,21.62 L32.38,21.62Z"/>
-              <path d="M40,14 L40,0 M58.38,21.62 L80,0 M66,40 L80,40 M58.38,58.38 L80,80 M40,66 L40,80 M21.62,58.38 L0,80 M14,40 L0,40 M21.62,21.62 L0,0"/>
-              <rect x="31" y="31" width="18" height="18" transform="rotate(45 40 40)"/>
-            </g>
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#khatam)"/>
-      </svg>
-    </div>
-
+  <section class="hero glow" aria-labelledby="hero-title">
     <div class="wrap">
-      <div class="hero-copy">
-        <h1 id="hero-title">تصفّح بحرية، وبياناتك تبقى عندك.</h1>
-        <p class="lead">متصفح أندرويد عربي يحجب الإعلانات والمتتبعات، ويشارك الملفات بدون إنترنت مع أي هاتف أو كمبيوتر أو آيفون، ويحفظ كلمات السر مشفّرة، ويشغّل الفيديو في الخلفية، وفيه ألعاب. كل ذلك في تطبيق واحد، بلا حسابات ولا خوادم.</p>
-        <div class="cta">
-          <a class="btn" href="download/Hisn.apk">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-            تحميل حصن لأندرويد
-          </a>
-          <span class="meta">مجاني، <span data-hisn="size">10</span> ميجابايت، أندرويد 9 أو أحدث</span>
-          <div class="cta-win" data-hisn="win">
-            <a class="btn" href="https://github.com/iegy/H/releases/download/desktop-v1.7.0/Hisn-Setup-1.7.0.msi">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-              تحميل حصن لويندوز
-            </a>
-            <span class="meta">مجاني، <span data-hisn="win-size">116</span> ميجابايت، ويندوز 10 أو أحدث، الإصدار <span data-hisn="win-version">1.7.0</span>. SHA-256: <code data-hisn="win-sha">b608805ea97a97dfe2393ab9b6617af2aa40a6e8c5139fb5c8d9d9dc464d8e6a</code></span>
-          </div>
-          <a class="ghost" href="#features">ماذا يقدّم حصن؟</a>
+      <img class="mark" src="assets/logo.svg" alt="" width="64" height="85">
+      <h1 id="hero-title">حصن: متصفح يحجب الإعلانات، ويحمّل الفيديو، ويشارك بدون نت</h1>
+      <p class="lead">متصفح أندرويد عربي فيه حاجب إعلانات ومواقع ضارة، وتحميل للفيديو والبث بأعلى جودة، وإضافات زي كروم، ومشاركة ملفات مع أي هاتف أو كمبيوتر من غير إنترنت. مجاني، بلا إعلانات، بلا حسابات، وبياناتك تفضل عندك.</p>
+      <div class="platforms">
+        <a class="plat primary" href="download/Hisn.apk"><svg><use href="#i-android"/></svg><span>أندرويد <small>APK · <span data-hisn="size">10</span> ميجا</small></span></a>
+        <div class="cta-win" data-hisn="win">
+          <a class="plat" href="https://github.com/iegy/H/releases/download/desktop-v1.7.0/Hisn-Setup-1.7.0.msi"><svg><use href="#i-win"/></svg><span>ويندوز <small>الإصدار <span data-hisn="win-version">1.7.0</span> · <span data-hisn="win-size">116</span> ميجا</small></span></a>
         </div>
+        <a class="plat" href="#extensions"><svg><use href="#i-puzzle"/></svg><span>متجر الإضافات</span></a>
       </div>
+      <p class="fine">أندرويد 9 أو أحدث · ويندوز 10 أو أحدث · بدون حساب</p>
 
-      <div class="phone" role="img" aria-label="الصفحة الرئيسية لحصن: شريط العنوان في الأعلى، مربع البحث، الاختصارات وبطاقة مواقيت الصلاة">
-        <div class="screen" aria-hidden="true">
-          <div class="sb"><span>9:41</span><span>●●●</span></div>
-          <div class="toolbar"><div class="addr"><span class="lock"></span>ابحث أو اكتب عنواناً</div></div>
-          <div class="home">
-            <img class="mark" src="assets/logo.svg" alt="">
-            <div class="search">ابحث في الويب</div>
-            <div class="shortcuts">
-              <span><i>i</i>iegy</span><span><i>و</i>ويكيبيديا</span><span><i>ي</i>يوتيوب</span><span><i>ر</i>رفيقي</span>
-              <span><i>G</i>Gmail</span><span><i>خ</i>خرائط</span><span><i>أ</i>أخبار</span><span><i>+</i>إضافة</span>
-            </div>
-            <div class="prayer">
-              <small>الصلاة القادمة، القاهرة</small>
-              <b>العصر بعد 1:24</b>
-              <small>الفجر 4:32 · الظهر 11:41 · العصر 2:52</small>
+      <div class="showcase" aria-hidden="true">
+        <h2>حمّل الفيديو واحجب الإعلانات</h2>
+        <div class="stage">
+          <span class="float f-hls" style="top:20px;left:16%">M3U8</span>
+          <span class="float f-mp4 b" style="top:110px;left:7%">MP4</span>
+          <span class="float f-dash c" style="top:210px;right:9%">DASH</span>
+          <span class="float f-mp3 b" style="top:36px;right:15%">WEBM</span>
+          <div class="badge-ad" style="top:190px;left:17%"><span>AD</span></div>
+          <div class="phone">
+            <div class="scr">
+              <div class="bar"><span class="shield">✓</span><span class="addr">video.example/watch</span></div>
+              <div class="video"></div>
+              <div class="t">غروب على الجبل: فيديو بدقة 4K</div>
+              <div class="s">مشغّل حصن · بدون إعلانات</div>
+              <div class="sheet">
+                <b>تحميل حصن</b>
+                <div class="q on"><span><i></i>1080p</span><span>212 MB</span></div>
+                <div class="q"><span><i></i>720p</span><span>118 MB</span></div>
+                <div class="q"><span><i></i>480p</span><span>64 MB</span></div>
+              </div>
             </div>
           </div>
-          <div class="navbar"><span>‹</span><span>›</span><span>+</span><span>▢</span><span>⋮</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="never" aria-labelledby="never-title">
-    <div class="wrap">
-      <h2 id="never-title">ما لا يفعله حصن أبداً</h2>
-      <ul>
-        <li>لا يطلب حساباً</li>
-        <li>لا يرسل سجلك إلى أي خادم</li>
-        <li>لا يحتوي إعلانات أو أدوات تتبّع</li>
-        <li>لا يتجاوز أخطاء شهادات الأمان</li>
-      </ul>
+  <!-- Video -->
+  <section class="sec glow left" id="video" aria-labelledby="video-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-play"/></svg>الفيديو</span>
+      <h2 id="video-title">اتفرّج وحمّل الفيديو في متصفح واحد</h2>
+      <p class="sub">حصن بيلاقي الفيديو اللي في الصفحة، حتى البث (HLS وDASH)، فتختار الجودة والصوت والترجمة وتحفظه ملف MP4 واحد بمدير تحميل بثمانية اتصالات. وتكمّل الفرجة في الخلفية أو في نافذة عائمة.</p>
     </div>
-  </section>
-
-
-  <section class="highlights" aria-labelledby="hl-title">
     <div class="wrap">
-      <div class="intro">
-        <h2 id="hl-title">أكثر من متصفح</h2>
-        <p>تسعة أشياء تجعل حصن مختلفاً عن أي متصفح آخر على هاتفك.</p>
-      </div>
-      <div class="hl-grid">
-        <article class="hl gold">
-          <span class="tag">مطوّر</span>
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M4 12l4-4M4 12l4 4M20 12l-4-4M20 12l-4 4"/></svg></div>
-          <h3>جسر: مشاركة بدون نت</h3>
-          <p>أرسل الصور والفيديو والملفات بأي حجم بسرعة الواي فاي، لهاتف آخر أو لأي كمبيوتر وآيفون من المتصفح. حصن يصنع شبكته الخاصة، ويكمل النقل لو انقطع. مشفّر بالكامل.</p>
+      <div class="cards g2">
+        <article class="card dark wide center rv">
+          <h3>تحميل الفيديو والبث بالجودة اللي تختارها</h3>
+          <p>بيكتشف الملفات المباشرة والبث أثناء التشغيل، وبيحمّل لحد 8 أجزاء مع بعض، ويوقف ويكمّل حتى بعد قفل التطبيق. المحتوى المحمي بـ DRM مش بيتحمّل، وحصن بيقولك ده بوضوح.</p>
+          <div class="ctrls">
+            <div><svg><use href="#i-down"/></svg>8 اتصالات</div>
+            <div><svg><use href="#i-play"/></svg>HLS وDASH</div>
+            <div><svg><use href="#i-cc"/></svg>الترجمة</div>
+            <div><svg><use href="#i-pause"/></svg>إيقاف واستكمال</div>
+          </div>
         </article>
-        <article class="hl">
-          <span class="tag">جديد</span>
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="14" height="10" rx="2"/><path d="M6 18h6M9 14v4"/><rect x="17" y="8" width="5" height="11" rx="1.5"/></svg></div>
-          <h3>لأي كمبيوتر أو آيفون</h3>
-          <p>افتح «جسر ← أي جهاز» وامسح الرمز من أي كمبيوتر أو آيفون، فترسل وتستقبل الملفات من المتصفح مباشرة. بلا تطبيق ولا كابل، ولو انقطع الاتصال يكمل من حيث توقف.</p>
-        </article>
-        <article class="hl">
-          <span class="tag">جديد</span>
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="3" width="8" height="4" rx="1"/><path d="M16 5h2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2"/><path d="M9 13h6M9 17h4"/></svg></div>
-          <h3>حافظة مشتركة</h3>
-          <p>انسخ نصاً أو رابطاً على الكمبيوتر والصقه على هاتفك، أو العكس، بلمسة واحدة ومن غير إنترنت.</p>
-        </article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-          <h3>يحجب الإعلانات ونوافذ الكوكيز</h3>
-          <p>صفحات أنظف وأسرع من غير إعلانات ولا متتبعات ولا رسائل «وافق على الكوكيز» ولا طلبات الإشعارات، وحاجب للمواقع الضارة والاحتيال.</p>
-        </article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M15 8l2 2"/></svg></div>
-          <h3>كلمات سر وملاحظات مقفولة</h3>
-          <p>كلمات السر مشفّرة وتُملأ بلمسة وتفتح ببصمتك فقط. وملاحظات بكلمة سر خاصة بيها، تتزامن بين أجهزتك وتدخل في النسخة الاحتياطية.</p>
-        </article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></svg></div>
-          <h3>مشغّل ميديا كامل</h3>
-          <p>فيديو وصوت يعملان في الخلفية وفي نافذة عائمة، بإيماءات للصوت والإضاءة والتقديم، وعارض صور وملفات نصية.</p>
-        </article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-14 5M4 12a8 8 0 0 1 14-5"/><path d="M18 3v4h-4M6 21v-4h4"/></svg></div>
-          <h3>نسخ احتياطي ومزامنة تلقائية</h3>
-          <p>مثل واتساب: كل بياناتك تُحفظ تلقائياً في Google Drive الخاص بك وترجع لو غيّرت هاتفك، وأجهزتك المرتبطة تتزامن وحدها. كله مشفّر بعبارة مرورك ولا يقرؤه أحد غيرك.</p>
-        </article>
-        <article class="hl">
-          <span class="tag">جديد</span>
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4M15 11h.01M18 13h.01"/></svg></div>
-          <h3>«مو يجري» وألعاب أخرى</h3>
-          <p>الجديد «مو يجري»: اجري مع الروبوت مو في ست عوالم، صلّح الباجات العملاقة، طوّر قواك واشترِ أشكالاً جديدة، ومهام وهدية كل يوم. ومعها «جواهر الواحة» و«بلوكات حصن» و«مغامرة حصن» و«جري الصحراء». كلها بدون إنترنت.</p>
-        </article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="3"/><circle cx="7" cy="7" r="1"/><path d="M12 14v6M9 17l3 3 3-3"/></svg></div>
-          <h3>أسرع وسلس مثل كروم</h3>
-          <p>حاجب الإعلانات صار يفحص كل طلب أسرع بأكثر من مئة مرة، فالصفحات تفتح أسرع. وشريط عنوان باقتراحات البحث، وأيقونات المواقع، واسحب الصفحة لإعادة تحميلها.</p>
+        <article class="card green wide center rv">
+          <h3>مشغّل فيديو مرن على قد إيدك</h3>
+          <p>نافذة عائمة، وصوت في الخلفية والشاشة مقفولة، وسرعة من 0.5× لـ 3×، وترجمة، وملء شاشة حقيقي، وزرار «إطفاء الأنوار» اللي بيغمّق الصفحة كلها ما عدا الفيديو.</p>
+          <div class="ctrls">
+            <div><svg><use href="#i-pip"/></svg>نافذة عائمة</div>
+            <div><svg><use href="#i-head"/></svg>في الخلفية</div>
+            <div><svg><use href="#i-speed"/></svg>السرعة</div>
+            <div><svg><use href="#i-cc"/></svg>الترجمة</div>
+            <div><svg><use href="#i-bulb"/></svg>إطفاء الأنوار</div>
+          </div>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section class="section" id="features" aria-labelledby="features-title">
-    <div class="wrap">
-      <div class="intro">
-        <h2 id="features-title">متصفح كامل، مكتوب لأندرويد من الصفر</h2>
-        <p>حصن تطبيق أصلي بلغة Kotlin وواجهة عربية أولاً، وليس موقعاً داخل غلاف. كل ما تحتاجه يومياً موجود فيه، وكل ما يخصّك يبقى على هاتفك.</p>
-      </div>
-
-      <article class="chapter feature" aria-labelledby="ch-privacy">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M24 4 L40 10 V24 C40 33 33 41 24 44 C15 41 8 33 8 24 V10 Z"/><path d="M17 20 h4 v3 h6 v-3 h4 v12 h-14 Z"/></svg>
-          <h2 id="ch-privacy">الخصوصية والحماية</h2>
-          <p>اسمه حصن لسبب. الحماية مفعّلة من أول تشغيل، وكل خيار يمكنك التحكم فيه.</p>
-        </div>
+      <details class="more">
+        <summary>كل خصائص الفيديو والتحميل</summary>
         <ul class="points">
-          <li><h3>حجب الإعلانات والمتتبعات</h3><p>قوائم حجب محلية تُحدَّث أسبوعياً، مع عدّاد لما حُجب في كل صفحة، واستثناء أي موقع بلمسة.</p></li>
-          <li><h3>حاجب المواقع</h3><p>شغال من أول ما تفتح التطبيق: بيحجب أكتر من مليون موقع إباحي ومواقع القمار والاحتيال والتصيّد والبرمجيات الخبيثة والفدية، وتقدر تضيف فئات تانية أو مواقعك بنفسك.</p></li>
-          <li><h3>نافذة خاصة معزولة فعلاً</h3><p>تعمل في عملية منفصلة ومجلد بيانات منفصل، وتُمسح بالكامل عند إغلاقها، ولا تظهر في لقطات الشاشة.</p></li>
+          <li><h3>حتى 8 اتصالات للملف</h3><p>يقسم الملف ويحمّل أجزاءه معاً، مع إيقاف واستئناف حتى بعد إغلاق التطبيق، وحدّ للسرعة وخيار Wi‑Fi فقط.</p></li>
+          <li><h3>التقاط فيديو HLS وDASH</h3><p>يكتشف البث أثناء تشغيله، فتختار الجودة والصوت والترجمة، ويحوّله إلى ملف MP4 واحد.</p></li>
+          <li><h3>تشغيل في الخلفية</h3><p>الصوت والفيديو يستمران حين تخرج من حصن أو تقفل الشاشة، مع أزرار التحكم في الإشعار.</p></li>
+          <li><h3>ملء الشاشة الحقيقي</h3><p>الفيديو العريض يدور أفقياً ويملأ الشاشة كلها حتى منطقة الكاميرا.</p></li>
+          <li><h3>مشغّل حصن</h3><p>قوائم تشغيل من تنزيلاتك، وسرعة وترجمة وجودة، ونافذة عائمة، ويتذكر أين توقفت. اسحب للصوت والإضاءة، وانقر مرتين للتقديم.</p></li>
+          <li><h3>شغّل البث من الصفحة</h3><p>أي فيديو يجده حصن في الصفحة، حتى بث m3u8، تشغّله في المشغّل مباشرة دون تنزيله.</p></li>
+          <li><h3>حفظ الصفحة</h3><p>احفظ أي صفحة كملف HTML، أو كأرشيف كامل بالصور يفتح بدون إنترنت.</p></li>
+          <li><h3>«افتح بواسطة» من أي تطبيق</h3><p>يظهر «مشغّل حصن» عند فتح فيديو أو صوت أو صورة أو ملف نصي من مدير الملفات أو المعرض.</p></li>
+        </ul>
+      </details>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <!-- Blocking -->
+  <section class="sec glow" id="blocking" aria-labelledby="block-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-shield"/></svg>حجب الإعلانات</span>
+      <h2 id="block-title">اقفل الباب في وش الإعلانات والمتتبعات والمواقع الضارة</h2>
+      <p class="sub">الحماية شغالة من أول ما تفتح حصن: الإعلانات والمتتبعات ونوافذ الكوكيز وطلبات الإشعارات بتختفي، والمواقع الإباحية والقمار والاحتيال والتصيّد والبرامج الضارة مش بتفتح أصلاً.</p>
+    </div>
+    <div class="wrap">
+      <div class="cards g2">
+        <article class="card green wide rv">
+          <h3>حاجب إعلانات مدمج لصفحات أنضف وأسرع</h3>
+          <p>قوائم حجب على تليفونك بتتحدّث كل أسبوع، وعدّاد للي اتحجب في كل صفحة، واستثناء أي موقع بلمسة لو حاجة ما اشتغلتش.</p>
+          <div class="stats">
+            <div class="stat"><b>+1,000,000</b><span>موقع إباحي محجوب</span></div>
+            <div class="stat"><b>×100</b><span>أسرع في فحص كل طلب</span></div>
+            <div class="stat"><b>0</b><span>بيانات بتطلع لأي خادم</span></div>
+          </div>
+        </article>
+        <article class="card rv">
+          <div class="ico"><svg><use href="#i-block"/></svg></div>
+          <h3>نوافذ الكوكيز والإشعارات؟ مش هتشوفها</h3>
+          <p>حصن بيخفي رسائل «وافق على الكوكيز» من آلاف المواقع ويمنع طلبات «اسمح بالإشعارات»، ويرجّع للصفحة إمكانية التمرير.</p>
+        </article>
+        <article class="card rv">
+          <div class="ico"><svg><use href="#i-shield"/></svg></div>
+          <h3>حاجب مواقع بالفئات</h3>
+          <p>أكتر من مليون موقع إباحي من مصدرين، ومواقع القمار والاحتيال والتصيّد والفدية. والبرامج الضارة (2.5 مليون موقع) بتتحمّل على الواي فاي بس.</p>
+        </article>
+      </div>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <!-- Extensions -->
+  <section class="sec glow left" id="extensions" aria-labelledby="ext-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-puzzle"/></svg>الإضافات</span>
+      <h2 id="ext-title">إضافات زي كروم، على تليفونك</h2>
+      <p class="sub">متجر حصن فيه إضافات معمولة للموبايل تشغّلها بلمسة، وتقدر تثبّت أي سكريبت من Greasy Fork بفتح رابط التثبيت بتاعه. كل إضافة ليها مفتاح تشغيل وتحديثات، وأوامرها بتظهر في قائمة الصفحة.</p>
+    </div>
+    <div class="wrap">
+      <div class="cards g2">
+        <article class="card sky wide rv">
+          <span class="tag">جديد في 1.11</span>
+          <h3>متجر إضافات حصن</h3>
+          <p>الإضافات اللي عليها إطار شغالة من أول ما تثبّت حصن، والباقي بلمسة.</p>
+          <div class="exts">
+            <div class="ext on"><i style="background:#1f8f63"><svg><use href="#i-speed"/></svg></i>سرعة الفيديو</div>
+            <div class="ext on"><i style="background:#3b6fd8"><svg><use href="#i-eye"/></svg></i>إظهار كلمة السر</div>
+            <div class="ext on"><i style="background:#8f6ae8"><svg><use href="#i-copy"/></svg></i>النسخ في أي موقع</div>
+            <div class="ext on"><i style="background:#2d9cdb"><svg><use href="#i-link"/></svg></i>روابط جوجل المباشرة</div>
+            <div class="ext on"><i style="background:#c99a3e"><svg><use href="#i-bulb"/></svg></i>إطفاء الأنوار</div>
+            <div class="ext"><i style="background:#e2557a"><svg><use href="#i-block"/></svg></i>إخفاء Shorts</div>
+            <div class="ext"><i style="background:#d9534f"><svg><use href="#i-down"/></svg></i>عدّاد عدم الإعجاب</div>
+            <div class="ext"><i style="background:#546069"><svg><use href="#i-pause"/></svg></i>إيقاف التشغيل التلقائي</div>
+            <div class="ext"><i style="background:#2b3240"><svg><use href="#i-moon"/></svg></i>الوضع الداكن</div>
+            <div class="ext"><i style="background:#13a38f"><svg><use href="#i-bar"/></svg></i>شريط القراءة</div>
+            <div class="ext"><i style="background:#0f3b28"><svg><use href="#i-up"/></svg></i>الرجوع لأعلى</div>
+          </div>
+        </article>
+        <article class="card green rv">
+          <h3>إدارة الإضافات من مكان واحد</h3>
+          <p>شغّل أو وقّف أو امسح أي إضافة، وشوف كودها والمواقع اللي بتشتغل عليها، ودوّر على تحديثات بلمسة. الإضافات مش بتشتغل في النافذة الخاصة، وكل بروفايل ليه إضافاته.</p>
+        </article>
+        <article class="card rv">
+          <h3>أي سكريبت من Greasy Fork</h3>
+          <p>افتح رابط «Install» لأي سكريبت في حصن، وهتظهرلك شاشة توضّح هو بيعمل إيه وبيشتغل على أنهي مواقع قبل التثبيت. أو ثبّت من رابط أو الصق الكود بنفسك.</p>
+        </article>
+      </div>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <!-- Privacy -->
+  <section class="sec glow gold" id="privacy" aria-labelledby="priv-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-lock"/></svg>الخصوصية</span>
+      <h2 id="priv-title">خصوصيتك مش إعداد مخفي، دي الأساس</h2>
+      <p class="sub">مفيش حساب، ومفيش خادم لحصن أصلاً. اللي يخصّك بيفضل على تليفونك، واللي بيتزامن بيتشفّر بعبارة مرورك قبل ما يطلع.</p>
+    </div>
+    <div class="wrap">
+      <div class="cards g2">
+        <article class="card rv">
+          <h3 class="hl">كلمات سر وملاحظات مقفولة</h3>
+          <p>كلمات السر مشفّرة بمفتاح في Android Keystore ومش بتتفتح غير ببصمتك، وبتتملي بلمسة. وملاحظات بكلمة سر خاصة بيها، بتتزامن وتدخل في النسخة الاحتياطية.</p>
+        </article>
+        <article class="card rv">
+          <h3 class="hl">نافذة خاصة معزولة فعلاً</h3>
+          <p>بتشتغل في عملية ومجلد بيانات منفصلين، وبتتمسح بالكامل لما تقفلها، ومش بتظهر في لقطات الشاشة.</p>
+        </article>
+      </div>
+      <details class="more">
+        <summary>كل خصائص الخصوصية</summary>
+        <ul class="points">
           <li><h3>روابط بلا تتبّع</h3><p>يحذف معاملات مثل utm وfbclid وgclid من الروابط قبل فتحها، ويرسل إشارة عدم التتبع (GPC) إذا فعّلتها.</p></li>
           <li><h3>HTTPS فقط</h3><p>يحاول الاتصال الآمن أولاً، ويحذّرك قبل فتح أي موقع غير مشفّر.</p></li>
           <li><h3>قفل بالبصمة</h3><p>اقفل التطبيق ببصمتك أو قفل الشاشة، وامنع لقطات الشاشة، وامسح البيانات تلقائياً عند الخروج.</p></li>
-          <li><h3>مدير كلمات السر</h3><p>يعرض الحفظ عند تسجيل الدخول ويملأ الحساب بلمسة. كلمات السر مشفّرة بمفتاح في Android Keystore لا يُفتح إلا ببصمتك، وتستورد من كروم بملف CSV.</p></li>
-          <li><h3>إخفاء نوافذ الكوكيز والإشعارات</h3><p>يخفي رسائل الموافقة على الكوكيز من آلاف المواقع ويمنع طلبات «اسمح بالإشعارات»، ويرجّع للصفحة إمكانية التمرير.</p></li>
-          <li><h3>ملاحظات بكلمة سر</h3><p>اكتب ملاحظاتك بألوان وتثبيت وبحث، محمية بكلمة سر (أو ببصمتك)، ومتشفّرة على التليفون، وبتتزامن مع أجهزتك وتتحفظ في النسخة الاحتياطية.</p></li>
           <li><h3>إعدادات لكل موقع</h3><p>الإعلانات وجافاسكربت والحجب ومسح بيانات أي موقع، من شاشة واحدة أو من قائمة الصفحة مباشرة.</p></li>
+          <li><h3>ملفات شخصية منفصلة</h3><p>عمل ودراسة وترفيه، لكل ملف إشاراته وسجله وتبويباته وإضافاته، وتسجيل دخول مختلف في نفس المواقع.</p></li>
+          <li><h3>نسخ احتياطي مشفّر</h3><p>نسخة تلقائية لكل بياناتك على Google Drive بتاعك، مشفّرة بعبارة مرورك فمحدش يقدر يقراها غيرك.</p></li>
         </ul>
-      </article>
+      </details>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
 
-      <article class="chapter" aria-labelledby="ch-downloads">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 6 V30 M15 21 L24 30 L33 21 M8 38 H40"/></svg>
-          <h2 id="ch-downloads">تحميل بلا انتظار</h2>
-          <p>مدير تحميل متقدم كُتب خصيصاً لحصن، لا يعتمد على مدير التنزيلات العادي.</p>
-        </div>
-        <ul class="points">
-          <li><h3>حتى 8 اتصالات للملف</h3><p>يقسم الملف ويحمّل أجزاءه معاً، مع إيقاف واستئناف حتى بعد إغلاق التطبيق، وحدّ للسرعة وخيار Wi‑Fi فقط.</p></li>
-          <li><h3>التقاط فيديو HLS وDASH</h3><p>يكتشف البث أثناء تشغيله، فتختار الجودة والصوت والترجمة، ويحوّله إلى ملف MP4 واحد. المحتوى المحمي بـ DRM لا يُحمَّل.</p></li>
-          <li><h3>حفظ الصفحة</h3><p>احفظ أي صفحة كملف HTML، أو كأرشيف كامل بالصور يفتح بدون إنترنت.</p></li>
-          <li><h3>بحث في التنزيلات</h3><p>ابحث بالاسم أو الموقع، وصفِّ حسب النوع أو الحالة: جارية ومكتملة وفاشلة.</p></li>
-        </ul>
-      </article>
+  <!-- Devices & tools -->
+  <section class="sec glow left" id="yours" aria-labelledby="yours-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-swap"/></svg>ليك إنت</span>
+      <h2 id="yours-title">أدوات ليومك، جوه المتصفح</h2>
+      <p class="sub">حاجات بتحتاج لها تطبيقات منفصلة، موجودة في حصن ومن غير إنترنت كمان.</p>
+    </div>
+    <div class="wrap">
+      <div class="cards g3">
+        <article class="card cream rv"><div class="ico"><svg><use href="#i-swap"/></svg></div><h3>جسر: مشاركة بدون نت</h3><p>ابعت صور وفيديوهات وملفات بأي حجم بسرعة الواي فاي لهاتف تاني أو لأي كمبيوتر وآيفون من المتصفح، ومشفّرة بالكامل.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-timer"/></svg></div><span class="tag">جديد</span><h3>مؤقّت بومودورو</h3><p>ركّز 25 دقيقة واستريح 5، وبعد 4 جلسات استراحة طويلة. شغّال والتطبيق مقفول، مع تنبيه لما المرحلة تخلص.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-note"/></svg></div><h3>ملاحظات بكلمة سر</h3><p>ألوان وتثبيت وبحث، محمية بكلمة سر أو ببصمتك، ومتشفّرة على التليفون.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-cloud"/></svg></div><h3>نسخ احتياطي ومزامنة</h3><p>زي واتساب: بياناتك بتتحفظ لوحدها على Drive بتاعك وترجع لو غيّرت تليفونك، وأجهزتك بتتزامن مع بعض.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-qr"/></svg></div><h3>ماسح QR ومواقيت الصلاة</h3><p>ماسح بيفحص الروابط المشبوهة قبل فتحها، وبطاقة مواقيت الصلاة على الصفحة الرئيسية من غير إذن الموقع.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-voice"/></svg></div><h3>القراءة والترجمة بصوت</h3><p>وضع القراءة، وترجمة الصفحة، وقارئ PDF، ولقطة للصفحة كلها، وقراءة المقالات بصوت عالي.</p></article>
+        <article class="card green wide rv"><div class="ico" style="background:rgba(255,255,255,.16);color:#fff"><svg><use href="#i-game"/></svg></div><h3>«مو يجري» وألعاب تانية من غير إنترنت</h3><p>اجري مع الروبوت مو في ست عوالم وصلّح الباجات العملاقة. ومعاها «جواهر الواحة» و«بلوكات حصن» و«مغامرة حصن» و«جري الصحراء».</p></article>
+      </div>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
 
-
-      <article class="chapter" aria-labelledby="ch-media">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="10" width="36" height="28" rx="5"/><path d="M20 18 L31 24 L20 30 Z"/></svg>
-          <h2 id="ch-media">فيديو وصوت كما يجب</h2>
-          <p>مشغّل مدمج يفتح كل ملفاتك، ويوتيوب يكمل وأنت خارج التطبيق.</p>
-        </div>
-        <ul class="points">
-          <li><h3>تشغيل في الخلفية</h3><p>الصوت والفيديو يستمران حين تخرج من حصن أو تقفل الشاشة، مع أزرار التحكم في الإشعار. ويعمل مع الفيديو بملء الشاشة.</p></li>
-          <li><h3>ملء الشاشة الحقيقي</h3><p>الفيديو العريض يدور أفقياً ويملأ الشاشة كلها حتى منطقة الكاميرا، ولا يتوقف عند التكبير.</p></li>
-          <li><h3>مشغّل حصن</h3><p>قوائم تشغيل من تنزيلاتك، وسرعة وترجمة وجودة، ونافذة عائمة، ويتذكر أين توقفت. اسحب للصوت والإضاءة، وانقر مرتين للتقديم.</p></li>
-          <li><h3>صور وملفات نصية</h3><p>عارض صور بالسحب والتكبير والصور المتحركة، وعارض نصوص وأكواد بأرقام الأسطر يقرأ الملفات العربية القديمة صحيحة.</p></li>
-          <li><h3>شغّل البث من الصفحة</h3><p>أي فيديو يجده حصن في الصفحة، حتى بث m3u8، تشغّله في المشغّل مباشرة دون تنزيله.</p></li>
-          <li><h3>«افتح بواسطة» من أي تطبيق</h3><p>يظهر «مشغّل حصن» عند فتح فيديو أو صوت أو صورة أو ملف نصي من مدير الملفات أو المعرض.</p></li>
-        </ul>
-      </article>
-
-      <article class="chapter feature" aria-labelledby="ch-devices">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="9" width="16" height="30" rx="3"/><rect x="27" y="13" width="16" height="22" rx="3"/><path d="M21 24 H27 M24 21 L27 24 L24 27"/></svg>
-          <h2 id="ch-devices">أجهزتك تعمل معاً</h2>
-          <p>مشاركة ومزامنة دون أن تمر بياناتك على خادم أحد.</p>
-        </div>
-        <ul class="points">
-          <li><h3>جسر: مشاركة بدون إنترنت</h3><p>المستقبِل يعرض رمزاً، والمرسِل يمسحه، فينضم هاتفه لشبكة واي فاي خاصة يصنعها حصن ويرسل الملفات بأي حجم وبجودتها الأصلية.</p></li>
-          <li><h3>لأي كمبيوتر أو آيفون</h3><p>في «جسر ← أي جهاز» يعرض حصن عنواناً ورمزاً. افتحه في متصفح أي جهاز، ويندوز أو ماك أو آيفون، لترسل وتستقبل الملفات بلا تطبيق، حتى بدون إنترنت.</p></li>
-          <li><h3>حافظة مشتركة</h3><p>انسخ نصاً أو رابطاً على الكمبيوتر والصقه على الهاتف، أو العكس، بلمسة واحدة.</p></li>
-          <li><h3>يكمل من حيث توقف</h3><p>لو انقطع الاتصال أثناء نقل ملف كبير، يعيد حصن الاتصال ويكمل من آخر جزء وصل، دون أن يبدأ من الصفر.</p></li>
-          <li><h3>مشفّر من طرف لطرف</h3><p>كل جلسة لها مفاتيح جديدة (ECDH وAES-256)، والأجهزة القريبة تعرض نفس الرموز للتأكد أن لا أحد في المنتصف.</p></li>
-          <li><h3>شارك إلى حصن من أي تطبيق</h3><p>من المعرض أو الملفات اختر «مشاركة ← جسر حصن»، ثم امسح رمز الجهاز الآخر. وصفحة «المستلَم» تفتح ملفاتك في المشغّل مباشرة.</p></li>
-          <li><h3>نسخ احتياطي ومزامنة تلقائية</h3><p>نسخة احتياطية تلقائية لكل بياناتك على Google Drive الخاص بك، تستعيدها بعبارة مرورك أو مفتاح الاسترداد على أي هاتف. وأجهزتك المرتبطة تتزامن وحدها: المفضلة والسجل والاختصارات وكلمات السر والتبويبات.</p></li>
-        </ul>
-      </article>
-
-      <article class="chapter" aria-labelledby="ch-tools">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="13" height="13" rx="2"/><rect x="28" y="7" width="13" height="13" rx="2"/><rect x="7" y="28" width="13" height="13" rx="2"/><path d="M28 28 h5 v5 h-5 Z M36 36 h5 v5 h-5 Z M28 36 v5 M36 28 h5"/></svg>
-          <h2 id="ch-tools">أدوات ليومك</h2>
-          <p>ما تحتاجه عادة من تطبيقات منفصلة، موجود داخل المتصفح.</p>
-        </div>
-        <ul class="points">
-          <li><h3>ملفات شخصية منفصلة</h3><p>عمل ودراسة وترفيه، لكل ملف إشاراته وسجله وتبويباته، وتسجيل دخول مختلف في نفس المواقع.</p></li>
-          <li><h3>ماسح QR يعمل بدون إنترنت</h3><p>يقرأ الروابط وشبكات Wi‑Fi وجهات الاتصال، ويفحص الروابط المشبوهة قبل فتحها، ويصنع رمز QR لأي صفحة.</p></li>
-          <li><h3>مواقيت الصلاة على الصفحة الرئيسية</h3><p>بطاقة رفيقي تحسب المواقيت على جهازك مباشرة، بلا إنترنت وبلا إذن للموقع الجغرافي.</p></li>
-          <li><h3>القراءة والترجمة والطباعة</h3><p>وضع القراءة، وترجمة الصفحة، والبحث داخلها، وقارئ PDF، ولقطة كاملة للصفحة بطولها.</p></li>
-          <li><h3>القراءة بصوت عالٍ</h3><p>يقرأ لك المقالات بالعربية والإنجليزية بصوت هاتفك، مع إيقاف وتقديم وتحكم في السرعة.</p></li>
-          <li><h3>إضافات زي كروم</h3><p>متجر حصن فيه 10 إضافات: سرعة الفيديو، إظهار كلمة السر، النسخ في أي موقع، روابط جوجل المباشرة، إخفاء Shorts وغيرها. وتقدر تثبّت أي سكريبت من Greasy Fork بلمسة.</p></li>
-          <li><h3>شريط عنوان مثل كروم</h3><p>بطاقة الصفحة الحالية للتعديل والنسخ والمشاركة، واختصاراتك، وعمليات البحث الأخيرة، واقتراحات البحث أثناء الكتابة.</p></li>
-          <li><h3>انتقل من كروم في دقيقة</h3><p>استورد المفضلة والسجل من كروم والمتصفحات الأخرى، وكلمات السر من ملف CSV، وصدّر مفضلتك متى شئت.</p></li>
-          <li><h3>ألعاب بدون إنترنت</h3><p>«مو يجري»: جري لا نهائي مع الروبوت مو في ست عوالم بزعماء وقوى خارقة ومتجر ومهام يومية. «جواهر الواحة»: ثلاثون مرحلة بجواهر خاصة ونجوم. «بلوكات حصن»: املأ الصفوف والأعمدة واصنع كومبو. «مغامرة حصن»: ثماني مراحل حتى القلعة. و«جري الصحراء» للعب السريع.</p></li>
-        </ul>
-      </article>
-
-      <article class="chapter" aria-labelledby="ch-design">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M24 6 C14 6 6 13 6 23 C6 33 14 42 23 42 C26 42 27 40 27 38 C27 35 25 34 25 32 C25 30 27 29 29 29 H34 C38 29 42 26 42 21 C42 12 34 6 24 6 Z"/><circle cx="16" cy="20" r="2.5"/><circle cx="24" cy="14" r="2.5"/><circle cx="32" cy="18" r="2.5"/></svg>
-          <h2 id="ch-design">شكله كما تحب</h2>
-          <p>واجهة عربية من اليمين لليسار، مع الإنجليزية متاحة دائماً.</p>
-        </div>
-        <ul class="points">
-          <li>
-            <h3>ستة ألوان وألوان خلفيتك</h3>
-            <p>اختر لون التطبيق، أو دعه يأخذ ألوان خلفية هاتفك على أندرويد 12 وما بعده.</p>
-            <div class="swatches" aria-hidden="true">
-              <span style="background:#216A4D"></span><span style="background:#405F90"></span><span style="background:#006972"></span><span style="background:#7F560F"></span><span style="background:#8E4958"></span><span style="background:#546069"></span>
-            </div>
-          </li>
-          <li><h3>داكن وأسود خالص</h3><p>وضع داكن مريح، وخيار الأسود الكامل لشاشات OLED.</p></li>
-          <li><h3>شريط العنوان فوق أو تحت</h3><p>اختر المكان الأقرب لإصبعك. وعلى التابلت يظهر شريط تبويبات فوق الصفحة مثل متصفحات الكمبيوتر.</p></li>
-          <li><h3>أيقونات المواقع وقائمة مرتبة</h3><p>أيقونة كل موقع في التبويبات والمفضلة والسجل، وقائمة سريعة بالأزرار، وإعدادات مقسّمة لأقسام واضحة.</p></li>
-          <li><h3>خط عربي واضح</h3><p>خط IBM Plex Sans Arabic في كل الواجهة، ويمكنك العودة لخط هاتفك.</p></li>
-        </ul>
-      </article>
+  <!-- Comparison -->
+  <section class="sec" id="compare" aria-labelledby="cmp-title">
+    <div class="narrow">
+      <h2 id="cmp-title" style="text-align:center;margin-inline:auto">حصن والمتصفحات التانية</h2>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead><tr><td></td><th class="us">حصن</th><th>كروم</th><th>فايرفوكس</th><th>بريف</th></tr></thead>
+          <tbody>
+            <tr><th colspan="5">الفيديو</th></tr>
+            <tr><td>تحميل الفيديو والبث (HLS وDASH)</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="p" aria-label="جزئياً"></span></td></tr>
+            <tr><td>تشغيل الفيديو في الخلفية</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="y" aria-label="نعم"></span></td><td><span class="y" aria-label="نعم"></span></td></tr>
+            <tr><td>مدير تحميل بعدة اتصالات واستكمال</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td></tr>
+            <tr><th colspan="5">الحجب</th></tr>
+            <tr><td>حاجب إعلانات مدمج</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="p" aria-label="بإضافة"></span></td><td><span class="y" aria-label="نعم"></span></td></tr>
+            <tr><td>إخفاء نوافذ الكوكيز</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="p" aria-label="جزئياً"></span></td><td><span class="y" aria-label="نعم"></span></td></tr>
+            <tr><td>حجب المواقع الإباحية والقمار بالفئة</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td></tr>
+            <tr><th colspan="5">الأدوات</th></tr>
+            <tr><td>إضافات وسكريبتات على أندرويد</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td></tr>
+            <tr><td>مشاركة ملفات بدون إنترنت مع أي جهاز</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td></tr>
+            <tr><td>ملاحظات بكلمة سر ومؤقّت بومودورو</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td></tr>
+            <tr><th colspan="5">الخصوصية</th></tr>
+            <tr><td>مزامنة من غير حساب</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="n" aria-label="لا"></span></td><td><span class="y" aria-label="نعم"></span></td></tr>
+            <tr><td>كلمات سر بتتفتح بالبصمة</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="y" aria-label="نعم"></span></td><td><span class="y" aria-label="نعم"></span></td><td><span class="y" aria-label="نعم"></span></td></tr>
+            <tr><td>واجهة عربية أولاً</td><td class="us"><span class="y" aria-label="نعم"></span></td><td><span class="p" aria-label="مترجمة"></span></td><td><span class="p" aria-label="مترجمة"></span></td><td><span class="p" aria-label="مترجمة"></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="legend"><span><span class="y"></span>موجود</span><span><span class="p"></span>جزئياً أو بإضافة</span><span><span class="n"></span>مش موجود</span></div>
+      <p class="cmp-note">مقارنة بالنسخ المتاحة على أندرويد وإعداداتها الافتراضية، أكتوبر 2026. الخصائص بتتغيّر مع التحديثات.</p>
     </div>
   </section>
 
-
-  <section class="section all-features" aria-labelledby="all-title">
+  <!-- Never -->
+  <section class="sec glow gold" aria-labelledby="never-title">
     <div class="wrap">
-      <div class="intro">
-        <h2 id="all-title">كل ما في حصن</h2>
-        <p>القائمة الكاملة. العلامة ✦ تعني أنها أُضيفت مؤخراً.</p>
-      </div>
-      <div class="chip-groups">
-        <div><h3>الخصوصية والأمان</h3><ul class="chips">
-          <li>حجب الإعلانات والمتتبعات</li><li class="new">حاجب المواقع شغال تلقائياً</li><li>نافذة خاصة معزولة</li><li>HTTPS فقط</li><li>حذف معاملات التتبع من الروابط</li><li>إشارة GPC</li><li>قفل بالبصمة</li><li>منع لقطات الشاشة</li><li>مسح البيانات عند الخروج</li><li class="new">مدير كلمات السر</li><li class="new">مولّد كلمات سر</li><li class="new">إعدادات لكل موقع</li><li>جافاسكربت لكل موقع</li>
-        </ul></div>
-        <div><h3>الفيديو والتنزيلات</h3><ul class="chips">
-          <li>مدير تحميل بثمانية اتصالات</li><li>إيقاف واستئناف</li><li>التقاط HLS وDASH</li><li>حفظ الصفحة HTML وMHTML</li><li class="new">بحث وتاريخ في التنزيلات</li><li>تشغيل في الخلفية</li><li class="new">ملء شاشة حقيقي</li><li class="new">مشغّل حصن للفيديو والصوت</li><li class="new">نافذة عائمة</li><li class="new">عارض صور ونصوص</li><li class="new">تشغيل البث من الصفحة</li>
-        </ul></div>
-        <div><h3>أجهزتك</h3><ul class="chips">
-          <li class="new">جسر: مشاركة بدون إنترنت</li><li class="new">شبكة واي فاي خاصة</li><li class="new">مشاركة من أي تطبيق</li><li class="new">إرسال لأي كمبيوتر أو آيفون</li><li class="new">حافظة مشتركة</li><li class="new">استكمال النقل المنقطع</li><li class="new">مزامنة تلقائية مشفّرة</li><li class="new">نسخ احتياطي تلقائي على Drive</li><li class="new">تبويبات أجهزتك الأخرى</li><li>ملفات شخصية منفصلة</li><li>نسخ احتياطي واستعادة</li><li class="new">استيراد من كروم</li><li class="new">تصدير المفضلة</li>
-        </ul></div>
-        <div><h3>التصفح اليومي</h3><ul class="chips">
-          <li class="new">إضافات وسكريبتات</li><li class="new">متجر إضافات حصن</li><li class="new">شريط عنوان مثل كروم</li><li class="new">سحب لإعادة التحميل من أعلى الصفحة</li><li class="new">بحث في التبويبات</li><li class="new">ودجت للشاشة الرئيسية</li><li class="new">توفير البيانات</li><li class="new">صور للبروفايلات</li><li class="new">اقتراحات البحث</li><li class="new">أيقونات المواقع</li><li>شريط تبويبات للتابلت</li><li>مجموعات وتبويبات خاملة</li><li>البحث بالصوت</li><li>وضع القراءة</li><li class="new">القراءة بصوت عالٍ</li><li>الترجمة</li><li>قارئ PDF</li><li>لقطة للصفحة كاملة</li><li>ماسح QR</li><li>مواقيت الصلاة</li><li>نسخة سطح المكتب</li><li class="new">ألعاب بدون إنترنت</li><li class="new">مو يجري</li><li class="new">جواهر الواحة</li><li class="new">بلوكات حصن</li><li class="new">تحديث من داخل التطبيق</li>
-        </ul></div>
+      <h2 id="never-title" style="text-align:center;margin-inline:auto">اللي حصن مش هيعمله أبداً</h2>
+      <div class="never">
+        <div>مش هيطلب منك حساب</div>
+        <div>مش هيبعت سجلّك لأي خادم</div>
+        <div>مفيهوش إعلانات ولا أدوات تتبّع</div>
+        <div>مش هيتجاوز أخطاء شهادات الأمان</div>
       </div>
     </div>
   </section>
 
-  <section class="section install" id="install" aria-labelledby="install-title">
+  <!-- Install -->
+  <section class="sec" id="install" aria-labelledby="install-title">
     <div class="wrap">
-      <div class="intro">
-        <h2 id="install-title">التثبيت في دقيقة</h2>
-        <p>حصن غير موجود على متجر Google Play حالياً، لذلك يُثبَّت من ملف APK مباشرة.</p>
-      </div>
+      <h2 id="install-title">التثبيت في دقيقة</h2>
+      <p class="sub">حصن مش موجود على Google Play حالياً، فبيتثبّت من ملف APK مباشرة، وبعد كده بيحدّث نفسه من جوه التطبيق.</p>
       <ol class="steps">
-        <li><h3>حمّل الملف</h3><p>اضغط زر التحميل من هاتفك، وسيُحفظ ملف Hisn.apk في التنزيلات.</p></li>
-        <li><h3>اسمح بالتثبيت</h3><p>افتح الملف. إذا طلب أندرويد السماح بتثبيت التطبيقات من المتصفح أو مدير الملفات، فوافق مرة واحدة.</p></li>
-        <li><h3>افتح حصن</h3><p>اضغط «تثبيت» ثم «فتح». ويمكنك جعله المتصفح الافتراضي من الإعدادات.</p></li>
+        <li><h3>حمّل الملف</h3><p>اضغط زرار التحميل من تليفونك، وملف Hisn.apk هيتحفظ في التنزيلات.</p></li>
+        <li><h3>اسمح بالتثبيت</h3><p>افتح الملف. لو أندرويد طلب السماح بتثبيت التطبيقات من المتصفح أو مدير الملفات، وافق مرة واحدة.</p></li>
+        <li><h3>افتح حصن</h3><p>اضغط «تثبيت» وبعدين «فتح». وتقدر تخليه المتصفح الافتراضي من الإعدادات.</p></li>
       </ol>
-
-      <div class="download-box">
+      <div class="card dark dl rv" style="margin-top:20px">
         <dl>
           <dt>الإصدار</dt><dd data-hisn="version">1.11.0 (429194)</dd>
           <dt>الحجم</dt><dd><span data-hisn="size">10</span> ميجابايت</dd>
           <dt>يتطلب</dt><dd>أندرويد 9 أو أحدث</dd>
-          <dt>بصمة SHA-256</dt><dd><code data-hisn="sha">db9ce4664698ea430210c17f2ece08c67fbba598be732ce221c5b3d71773b117</code></dd>
+          <dt>SHA-256</dt><dd><code data-hisn="sha">db9ce4664698ea430210c17f2ece08c67fbba598be732ce221c5b3d71773b117</code></dd>
+          <dt>ويندوز SHA-256</dt><dd><code data-hisn="win-sha">b608805ea97a97dfe2393ab9b6617af2aa40a6e8c5139fb5c8d9d9dc464d8e6a</code></dd>
         </dl>
-        <a class="btn" href="download/Hisn.apk">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-          تحميل APK
-        </a>
+        <a class="btn" href="download/Hisn.apk"><svg><use href="#i-dl"/></svg>تحميل APK</a>
       </div>
     </div>
   </section>
 
-  <section class="section" id="faq" aria-labelledby="faq-title">
-    <div class="wrap">
-      <div class="intro"><h2 id="faq-title">أسئلة شائعة</h2></div>
+  <!-- FAQ -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="narrow">
+      <h2 id="faq-title">أسئلة شائعة</h2>
       <div class="faq">
-        <details>
-          <summary>هل حصن مجاني؟</summary>
-          <p>نعم، مجاني بالكامل وبدون إعلانات أو اشتراكات.</p>
-        </details>
-        <details>
-          <summary>كيف أحدّث التطبيق؟</summary>
-          <p>من داخل حصن: الإعدادات ← التحديثات وعن التطبيق. حين تصدر نسخة جديدة يظهر زر «تحميل التحديث»، ثم تثبّتها فوق النسخة الحالية، فتبقى إشاراتك وسجلك وإعداداتك كما هي.</p>
-        </details>
-        <details>
-          <summary>على أي محرك يعمل حصن؟</summary>
-          <p>يعرض الصفحات بمحرك Android System WebView المبني على Chromium، والذي يتحدّث تلقائياً من متجر هاتفك. لهذا لا يدعم إضافات Chrome.</p>
-        </details>
-        <details>
-          <summary>هل النافذة الخاصة تخفي هويتي؟</summary>
-          <p>لا. تمنع حفظ أي شيء على جهازك، لكن المواقع وشبكتك ومزوّد الإنترنت ما زالوا يرون نشاطك. لإخفاء هويتك تحتاج VPN أو Tor.</p>
-        </details>
-        <details>
-          <summary>هل يمكنه تحميل أي فيديو؟</summary>
-          <p>يحمّل الملفات المباشرة والبث غير المحمي (HLS وDASH). أما المحتوى المحمي بـ DRM أو البث المباشر فلا يُحمَّل، ويخبرك حصن بذلك بوضوح.</p>
-        </details>
-        <details>
-          <summary>كيف تعمل المشاركة بدون إنترنت؟</summary>
-          <p>افتح «جسر» على الجهازين. المستقبِل يضغط «استقبال» فيصنع حصن شبكة واي فاي خاصة ويعرض رمزاً، والمرسِل يمسح الرمز فينضم هاتفه للشبكة تلقائياً ويرسل. الملفات تنتقل مباشرة ومشفّرة، دون إنترنت أو باقة.</p>
-        </details>
-        <details>
-          <summary>هل أستطيع الإرسال لكمبيوتر أو آيفون ليس عليه حصن؟</summary>
-          <p>نعم. افتح «جسر ← أي جهاز» واضغط «افتح للأجهزة الأخرى». إذا كان الجهاز الآخر على نفس الواي فاي، افتح العنوان الظاهر في متصفحه. وإن لم يكن، يصنع حصن شبكة خاصة يتصل بها الجهاز الآخر أولاً (الآيفون يمسح رمزها بالكاميرا). بعدها ترسل وتستقبل الملفات وتتبادل النصوص من صفحة في المتصفح.</p>
-        </details>
-        <details>
-          <summary>هل المزامنة آمنة؟</summary>
-          <p>نعم. حصن يشفّر النسخة الاحتياطية وملف المزامنة على جهازك بعبارة مرور تختارها قبل حفظهما في Google Drive الخاص بك، فلا تستطيع Google ولا أي جهة قراءتهما. ولا يوجد خادم لحصن أصلاً.</p>
-        </details>
-        <details>
-          <summary>أين تُحفظ بياناتي؟</summary>
-          <p>على هاتفك فقط. لا يملك حصن خادماً، ولا يرسل سجلك أو إشاراتك أو تنزيلاتك إلى أي جهة، وبياناته مستثناة من النسخ الاحتياطي السحابي.</p>
-        </details>
+        <details><summary>هل حصن مجاني؟</summary><p>أيوه، مجاني بالكامل ومن غير إعلانات ولا اشتراكات.</p></details>
+        <details><summary>إزاي أحدّث التطبيق؟</summary><p>من جوه حصن: الإعدادات ← التحديثات وعن التطبيق. لما تنزل نسخة جديدة هيظهر زرار «تحميل التحديث»، وبتثبّتها فوق النسخة الحالية، فإشاراتك وسجلك وإعداداتك بتفضل زي ما هي.</p></details>
+        <details><summary>هل بيدعم إضافات كروم؟</summary><p>حصن بيدعم السكريبتات (User Scripts) بنفس صيغة Tampermonkey، وده أغلب اللي الناس بتستخدمه من الإضافات: من متجر حصن أو من Greasy Fork. إضافات متجر كروم نفسها (ملفات CRX) مش مدعومة، لأن حصن شغال على Android System WebView.</p></details>
+        <details><summary>هل النافذة الخاصة بتخفي هويتي؟</summary><p>لأ. بتمنع حفظ أي حاجة على جهازك، لكن المواقع وشبكتك ومزوّد الإنترنت لسه شايفين نشاطك. عشان تخفي هويتك محتاج VPN أو Tor.</p></details>
+        <details><summary>هل يقدر يحمّل أي فيديو؟</summary><p>بيحمّل الملفات المباشرة والبث غير المحمي (HLS وDASH). المحتوى المحمي بـ DRM أو البث المباشر مش بيتحمّل، وحصن بيقولك كده بوضوح.</p></details>
+        <details><summary>إزاي المشاركة بتشتغل من غير إنترنت؟</summary><p>افتح «جسر» على الجهازين. المستقبِل يضغط «استقبال» فحصن يعمل شبكة واي فاي خاصة ويعرض رمز، والمرسِل يمسح الرمز فتليفونه ينضم للشبكة لوحده ويبعت. الملفات بتنتقل مباشرة ومشفّرة.</p></details>
+        <details><summary>هل المزامنة والنسخ الاحتياطي آمنين؟</summary><p>أيوه. حصن بيشفّر النسخة الاحتياطية وملف المزامنة على جهازك بعبارة مرور إنت اللي بتختارها قبل ما يتحفظوا في Google Drive بتاعك، فلا Google ولا أي حد يقدر يقراهم. ومفيش خادم لحصن أصلاً.</p></details>
+        <details><summary>المؤقّت بيكمّل لو قفلت التطبيق؟</summary><p>أيوه. مؤقّت بومودورو بيضبط منبّه في النظام، وبيظهر إشعار بالعدّ التنازلي وتنبيه لما المرحلة تخلص، حتى والشاشة مقفولة.</p></details>
       </div>
     </div>
   </section>
 </main>
 
-<footer class="site-foot">
+<section class="band" aria-labelledby="band-title">
   <div class="wrap">
-    <a class="brand" href="./"><img src="assets/logo.svg" alt="" width="26" height="35"><span>حصن</span></a>
-    <p>تصميم وتطوير محمد حسين، <a href="https://iegy.net/">iegy.net</a>. <a href="privacy.html">سياسة الخصوصية</a>. © 2026 جميع الحقوق محفوظة.</p>
+    <h2 id="band-title">متصفح عربي واحد: فيديو وتحميل وحجب وإضافات</h2>
+    <p>اتصفّح واتفرّج وحمّل، واقفل الباب في وش الإعلانات والمتتبعات، وزوّد حصن بالإضافات اللي تعجبك.</p>
+    <div class="row">
+      <a href="download/Hisn.apk"><svg><use href="#i-android"/></svg>أندرويد</a>
+      <a href="#hero-title"><svg><use href="#i-win"/></svg>ويندوز</a>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 40V22c120-14 240-14 360 0s240 14 360 0 240-14 360 0 240 14 360 0v18z"/></svg>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="community">
+      <h2>عندك فكرة لحصن؟</h2>
+      <p>حصن بيكبر باقتراحات اللي بيستخدموه. ابعت فكرتك أو مشكلة قابلتك، ونشوفها في التحديث الجاي.</p>
+      <a class="go" href="https://iegy.net/">تواصل مع المطوّر</a>
+    </div>
+    <div class="cols">
+      <div><h4>الخصائص</h4><a href="#video">الفيديو والتحميل</a><a href="#blocking">حجب الإعلانات</a><a href="#extensions">الإضافات</a><a href="#privacy">الخصوصية</a></div>
+      <div><h4>حمّل</h4><a href="download/Hisn.apk">أندرويد</a><a href="#hero-title">ويندوز</a><a href="#install">طريقة التثبيت</a></div>
+      <div><h4>مساعدة</h4><a href="#faq">أسئلة شائعة</a><a href="#compare">المقارنة</a><a href="privacy.html">سياسة الخصوصية</a></div>
+      <div><h4>اللغة</h4><a href="./">العربية</a><a href="en/" hreflang="en" lang="en">English</a></div>
+    </div>
+    <div class="copy">
+      <a class="brand" href="./"><img src="assets/logo.svg" alt="" width="22" height="29"><span>حصن</span></a>
+      <span>تصميم وتطوير محمد حسين، <a href="https://iegy.net/">iegy.net</a> · © 2026 جميع الحقوق محفوظة</span>
+    </div>
   </div>
 </footer>
+
+<script>
+(function () {
+  var els = document.querySelectorAll('.rv');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px' });
+  els.forEach(function (e) { io.observe(e); });
+})();
+</script>
 </body>
 </html>

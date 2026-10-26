@@ -3,355 +3,408 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hisn | The Android browser that keeps your data yours</title>
-  <meta name="description" content="Hisn is an Arabic-first Android browser that blocks ads and trackers, shares files without internet with any phone or computer, keeps passwords encrypted, plays video and music, and syncs your devices without servers. Free, no ads.">
-  <meta name="theme-color" content="#0f3b28">
+  <title>Hisn | The browser that blocks ads, downloads video and shares offline</title>
+  <meta name="description" content="Hisn is an Arabic-first Android browser that blocks ads and harmful sites, downloads video and streams, runs Chrome-style extensions, and shares files without internet with any phone or computer. Free, no ads, no accounts.">
+  <meta name="theme-color" content="#f8faf8">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" hreflang="ar" href="../">
-  <meta property="og:title" content="Hisn | The Android browser that keeps your data yours">
-  <meta property="og:description" content="A browser, offline file sharing with any phone or computer, a shared clipboard, a password manager, a media player and games, in one private Android app.">
+  <meta property="og:title" content="Hisn | The browser that blocks ads, downloads video and shares offline">
+  <meta property="og:description" content="A browser with an ad blocker, video downloads, extensions, offline file sharing, a password manager and a Pomodoro timer, with no accounts and no servers.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/site.css">
 <script data-goatcounter="https://hisn.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="site-head">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-dl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></symbol>
+    <symbol id="i-android" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.38.38 0 0 0-.66-.38l-1.86 3.22A11.4 11.4 0 0 0 12 8.1c-1.77 0-3.43.38-4.92 1.04L5.22 5.92a.38.38 0 0 0-.66.38L6.4 9.48A10.8 10.8 0 0 0 1 18h22a10.8 10.8 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></symbol>
+    <symbol id="i-win" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5l7.5-1v7H3zM11.5 4.3L21 3v8.5h-9.5zM3 12.5h7.5v7L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-puzzle" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 11H19V7a2 2 0 0 0-2-2h-4V3.5a2.5 2.5 0 0 0-5 0V5H4a2 2 0 0 0-2 2v3.8h1.5a2.7 2.7 0 0 1 0 5.4H2V20a2 2 0 0 0 2 2h3.8v-1.5a2.7 2.7 0 0 1 5.4 0V22H17a2 2 0 0 0 2-2v-4h1.5a2.5 2.5 0 0 0 0-5z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h14l-4-4M20 16H6l4 4"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></symbol>
+    <symbol id="i-pip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><rect x="12" y="11" width="7" height="6" rx="1.5" fill="currentColor"/></symbol>
+    <symbol id="i-head" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/></symbol>
+    <symbol id="i-speed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3.5 17a9 9 0 1 1 17 0"/><path d="M12 13l4-5"/><circle cx="12" cy="13" r="1.4" fill="currentColor"/></symbol>
+    <symbol id="i-cc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M10 10.5a2 2 0 1 0 0 3M17 10.5a2 2 0 1 0 0 3"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 21h6M10 17h4M12 3a6 6 0 0 0-3.5 10.9V17h7v-3.1A6 6 0 0 0 12 3z"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></symbol>
+    <symbol id="i-block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v10H4l5 6 5-6h-3V4z"/><path d="M15 8h6M15 12h4"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></symbol>
+    <symbol id="i-bar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M3 12h11"/><path d="M17 12h4" opacity=".4"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+    <symbol id="i-timer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M9 11h6M9 15h4"/></symbol>
+    <symbol id="i-qr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM18 18h3v3"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4M15 11h.01M18 13h.01"/></symbol>
+    <symbol id="i-voice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9v6M8 6v12M12 3v18M16 7v10M20 10v4"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M7 18a5 5 0 0 1-.6-10A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/><path d="M12 11v5M10 14l2 2 2-2"/></symbol>
+    <symbol id="i-moon2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  </defs>
+</svg>
+
+<header class="top">
   <div class="wrap">
-    <a class="brand" href="./" aria-label="Hisn home">
-      <img src="../assets/logo.svg" alt="" width="30" height="40">
-      <span>Hisn</span>
-    </a>
-    <nav class="head-links" aria-label="Site">
-      <a class="opt" href="#features">Features</a>
-      <a class="opt" href="#install">Install</a>
-      <a class="opt" href="#faq">FAQ</a>
-      <a class="lang" href="../" hreflang="ar" lang="ar">العربية</a>
+    <a class="brand" href="./" aria-label="Hisn home"><img src="../assets/logo.svg" alt="" width="24" height="32"><span>Hisn</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#video">Video</a>
+      <a href="#blocking">Ad blocking</a>
+      <a href="#extensions">Extensions</a>
+      <a href="#compare">Compare</a>
+      <a href="#faq">FAQ</a>
     </nav>
+    <div class="top-end">
+      <a class="lang" href="../" hreflang="ar" lang="ar">العربية</a>
+      <a class="pill-dark" href="#install">Get Hisn</a>
+    </div>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="lattice" aria-hidden="true">
-      <svg>
-        <defs>
-          <pattern id="khatam" width="80" height="80" patternUnits="userSpaceOnUse">
-            <g fill="none" stroke="currentColor" stroke-width="1.4">
-              <path d="M40,14 L47.62,21.62 L58.38,21.62 L58.38,32.38 L66,40 L58.38,47.62 L58.38,58.38 L47.62,58.38 L40,66 L32.38,58.38 L21.62,58.38 L21.62,47.62 L14,40 L21.62,32.38 L21.62,21.62 L32.38,21.62Z"/>
-              <path d="M40,14 L40,0 M58.38,21.62 L80,0 M66,40 L80,40 M58.38,58.38 L80,80 M40,66 L40,80 M21.62,58.38 L0,80 M14,40 L0,40 M21.62,21.62 L0,0"/>
-              <rect x="31" y="31" width="18" height="18" transform="rotate(45 40 40)"/>
-            </g>
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#khatam)"/>
-      </svg>
-    </div>
-
+  <section class="hero glow" aria-labelledby="hero-title">
     <div class="wrap">
-      <div class="hero-copy">
-        <h1 id="hero-title">Browse freely. Your data stays with you.</h1>
-        <p class="lead">Hisn (Arabic for “fortress”) is an Android browser that blocks ads and trackers, shares files without internet with any phone, computer or iPhone, keeps your passwords encrypted, plays video in the background and has games. All in one app, with no accounts and no servers.</p>
-        <div class="cta">
-          <a class="btn" href="../download/Hisn.apk">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-            Download Hisn for Android
-          </a>
-          <span class="meta">Free, <span data-hisn="size">10</span> MB, Android 9 or newer</span>
-          <div class="cta-win" data-hisn="win">
-            <a class="btn" href="https://github.com/iegy/H/releases/download/desktop-v1.7.0/Hisn-Setup-1.7.0.msi">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-              Download Hisn for Windows
-            </a>
-            <span class="meta">Free, <span data-hisn="win-size">116</span> MB, Windows 10 or newer, version <span data-hisn="win-version">1.7.0</span>. SHA-256: <code data-hisn="win-sha">b608805ea97a97dfe2393ab9b6617af2aa40a6e8c5139fb5c8d9d9dc464d8e6a</code></span>
-          </div>
-          <a class="ghost" href="#features">What’s inside?</a>
+      <img class="mark" src="../assets/logo.svg" alt="" width="64" height="85">
+      <h1 id="hero-title">Hisn: the browser that blocks ads, downloads video and shares offline</h1>
+      <p class="lead">An Arabic-first Android browser with a built-in ad and harmful-site blocker, video and stream downloads in the quality you pick, Chrome-style extensions, and file sharing with any phone or computer without internet. Free, no ads, no accounts, and your data stays yours.</p>
+      <div class="platforms">
+        <a class="plat primary" href="../download/Hisn.apk"><svg><use href="#i-android"/></svg><span>Android <small>APK · <span data-hisn="size">10</span> MB</small></span></a>
+        <div class="cta-win" data-hisn="win">
+          <a class="plat" href="https://github.com/iegy/H/releases/download/desktop-v1.7.0/Hisn-Setup-1.7.0.msi"><svg><use href="#i-win"/></svg><span>Windows <small>version <span data-hisn="win-version">1.7.0</span> · <span data-hisn="win-size">116</span> MB</small></span></a>
         </div>
+        <a class="plat" href="#extensions"><svg><use href="#i-puzzle"/></svg><span>Extension store</span></a>
       </div>
+      <p class="fine">Android 9 or newer · Windows 10 or newer · no account</p>
 
-      <div class="phone" role="img" aria-label="Hisn start page: address bar on top, search box, shortcuts and a prayer-times card">
-        <div class="screen" dir="rtl" aria-hidden="true">
-          <div class="sb"><span>9:41</span><span>●●●</span></div>
-          <div class="toolbar"><div class="addr"><span class="lock"></span>ابحث أو اكتب عنواناً</div></div>
-          <div class="home">
-            <img class="mark" src="../assets/logo.svg" alt="">
-            <div class="search">ابحث في الويب</div>
-            <div class="shortcuts">
-              <span><i>i</i>iegy</span><span><i>و</i>ويكيبيديا</span><span><i>ي</i>يوتيوب</span><span><i>ر</i>رفيقي</span>
-              <span><i>G</i>Gmail</span><span><i>خ</i>خرائط</span><span><i>أ</i>أخبار</span><span><i>+</i>إضافة</span>
-            </div>
-            <div class="prayer">
-              <small>الصلاة القادمة، القاهرة</small>
-              <b>العصر بعد 1:24</b>
-              <small>الفجر 4:32 · الظهر 11:41 · العصر 2:52</small>
+      <div class="showcase" aria-hidden="true">
+        <h2>Download video, block the ads</h2>
+        <div class="stage">
+          <span class="float f-hls" style="top:20px;left:16%">M3U8</span>
+          <span class="float f-mp4 b" style="top:110px;left:7%">MP4</span>
+          <span class="float f-dash c" style="top:210px;right:9%">DASH</span>
+          <span class="float f-mp3 b" style="top:36px;right:15%">WEBM</span>
+          <div class="badge-ad" style="top:190px;left:17%"><span>AD</span></div>
+          <div class="phone">
+            <div class="scr">
+              <div class="bar"><span class="shield">✓</span><span class="addr">video.example/watch</span></div>
+              <div class="video"></div>
+              <div class="t">Sunset over the mountain, in 4K</div>
+              <div class="s">Hisn player · no ads</div>
+              <div class="sheet">
+                <b>Hisn download</b>
+                <div class="q on"><span><i></i>1080p</span><span>212 MB</span></div>
+                <div class="q"><span><i></i>720p</span><span>118 MB</span></div>
+                <div class="q"><span><i></i>480p</span><span>64 MB</span></div>
+              </div>
             </div>
           </div>
-          <div class="navbar"><span>‹</span><span>›</span><span>+</span><span>▢</span><span>⋮</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="never" aria-labelledby="never-title">
-    <div class="wrap">
-      <h2 id="never-title">What Hisn never does</h2>
-      <ul>
-        <li>Ask you to sign in</li>
-        <li>Send your history to any server</li>
-        <li>Ship ads or tracking SDKs</li>
-        <li>Skip certificate errors</li>
-      </ul>
+  <section class="sec glow left" id="video" aria-labelledby="video-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-play"/></svg>Video</span>
+      <h2 id="video-title">Watch and download video in one browser</h2>
+      <p class="sub">Hisn finds the video on the page, streams included (HLS and DASH), so you pick the quality, audio and subtitles and save it as a single MP4 with an 8-connection download manager. Keep watching in the background or in a floating window.</p>
     </div>
-  </section>
-
-
-  <section class="highlights" aria-labelledby="hl-title">
     <div class="wrap">
-      <div class="intro">
-        <h2 id="hl-title">More than a browser</h2>
-        <p>Nine things that make Hisn different from any other browser on your phone.</p>
-      </div>
-      <div class="hl-grid">
-        <article class="hl gold"><span class="tag">Upgraded</span>
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M4 12l4-4M4 12l4 4M20 12l-4-4M20 12l-4 4"/></svg></div>
-          <h3>Jisr: share without internet</h3>
-          <p>Send photos, videos and files of any size at Wi-Fi speed, to another phone or to any computer or iPhone from its browser. Hisn makes its own private network and resumes if the connection drops. Fully encrypted.</p></article>
-        <article class="hl">
-          <span class="tag">New</span>
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="14" height="10" rx="2"/><path d="M6 18h6M9 14v4"/><rect x="17" y="8" width="5" height="11" rx="1.5"/></svg></div>
-          <h3>To any computer or iPhone</h3>
-          <p>Open “Jisr → Any device” and scan the code on any computer or iPhone to send and receive files right in its browser. No app, no cable, and it resumes if the connection drops.</p>
+      <div class="cards g2">
+        <article class="card dark wide center rv">
+          <h3>Video and stream downloads in the quality you choose</h3>
+          <p>Detects direct files and streams as they play, downloads up to 8 parts at once, and pauses and resumes even after the app is closed. DRM-protected content is not downloaded, and Hisn tells you so clearly.</p>
+          <div class="ctrls">
+            <div><svg><use href="#i-down"/></svg>8 connections</div>
+            <div><svg><use href="#i-play"/></svg>HLS &amp; DASH</div>
+            <div><svg><use href="#i-cc"/></svg>Subtitles</div>
+            <div><svg><use href="#i-pause"/></svg>Pause &amp; resume</div>
+          </div>
         </article>
-        <article class="hl">
-          <span class="tag">New</span>
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="3" width="8" height="4" rx="1"/><path d="M16 5h2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2"/><path d="M9 13h6M9 17h4"/></svg></div>
-          <h3>Shared clipboard</h3>
-          <p>Copy text or a link on the computer and paste it on your phone, or the other way round, in one tap and without internet.</p>
-        </article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-          <h3>Blocks ads and cookie pop-ups</h3>
-          <p>Cleaner, faster pages with no ads, trackers, “accept cookies” banners or notification requests, plus a blocker for harmful and scam sites.</p></article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M15 8l2 2"/></svg></div>
-          <h3>Locked passwords and notes</h3>
-          <p>Passwords encrypted, filled with a tap, unlocked only by your fingerprint. And notes with their own password, synced between your devices and included in the backup.</p></article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></svg></div>
-          <h3>A real media player</h3>
-          <p>Video and music that keep playing in the background or in a floating window, with gestures for volume, brightness and seeking, plus picture and text viewers.</p></article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-14 5M4 12a8 8 0 0 1 14-5"/><path d="M18 3v4h-4M6 21v-4h4"/></svg></div>
-          <h3>Automatic backup and sync</h3>
-          <p>Like WhatsApp: everything is backed up to your own Google Drive automatically and comes back on a new phone, and your linked devices keep themselves in sync. All encrypted with your passphrase, readable by no one else.</p></article>
-        <article class="hl"><span class="tag">New</span>
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4M15 11h.01M18 13h.01"/></svg></div>
-          <h3>“Mo Run” and more games</h3>
-          <p>New: “Mo Run”. Run with robot Mo through six worlds, fix giant bugs, upgrade your powers, buy new looks, with missions and a gift every day. Plus “Oasis Jewels”, “Hisn Blocks”, “Hisn Quest” and “Desert Run”. All offline.</p></article>
-        <article class="hl">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="3"/><circle cx="7" cy="7" r="1"/><path d="M12 14v6M9 17l3 3 3-3"/></svg></div>
-          <h3>Faster, and smooth like Chrome</h3>
-          <p>The ad blocker now checks each request more than a hundred times faster, so pages open sooner. Plus an address bar with search suggestions, site icons, and pull down to reload.</p>
+        <article class="card green wide center rv">
+          <h3>A flexible player that fits your hand</h3>
+          <p>Picture-in-picture, background audio with the screen off, speed from 0.5× to 3×, subtitles, true full screen, and a “Lights off” button that darkens everything except the video.</p>
+          <div class="ctrls">
+            <div><svg><use href="#i-pip"/></svg>Picture-in-picture</div>
+            <div><svg><use href="#i-head"/></svg>Background</div>
+            <div><svg><use href="#i-speed"/></svg>Speed</div>
+            <div><svg><use href="#i-cc"/></svg>Subtitles</div>
+            <div><svg><use href="#i-bulb"/></svg>Lights off</div>
+          </div>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section class="section" id="features" aria-labelledby="features-title">
-    <div class="wrap">
-      <div class="intro">
-        <h2 id="features-title">A complete browser, written for Android from scratch</h2>
-        <p>Hisn is a native Kotlin app with an Arabic-first interface, not a website in a wrapper. Everything you need every day is built in, and everything about you stays on your phone.</p>
-      </div>
-
-      <article class="chapter feature" aria-labelledby="ch-privacy">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M24 4 L40 10 V24 C40 33 33 41 24 44 C15 41 8 33 8 24 V10 Z"/><path d="M17 20 h4 v3 h6 v-3 h4 v12 h-14 Z"/></svg>
-          <h2 id="ch-privacy">Privacy and protection</h2>
-          <p>It’s called a fortress for a reason. Protection is on from the first launch, and every option is yours to change.</p>
-        </div>
+      <details class="more">
+        <summary>All video and download features</summary>
         <ul class="points">
-          <li><h3>Ad and tracker blocking</h3><p>Local block lists updated weekly, a count of what was blocked on each page, and one-tap exceptions per site.</p></li>
-          <li><h3>Website blocker</h3><p>On from the start: blocks over a million adult sites plus gambling, scam, phishing, malware and ransomware sites. Add more categories or your own sites.</p></li>
-          <li><h3>A private window that’s truly separate</h3><p>Runs in its own process with its own data folder, is wiped completely when closed, and never shows in screenshots.</p></li>
-          <li><h3>Links without tracking</h3><p>Removes utm, fbclid, gclid and similar parameters before a page loads, and sends Global Privacy Control if you switch it on.</p></li>
-          <li><h3>HTTPS only</h3><p>Tries a secure connection first and warns you before opening any unencrypted site.</p></li>
+          <li><h3>Up to 8 connections per file</h3><p>Splits the file and downloads the parts together, with pause and resume even after closing the app, a speed limit and a Wi‑Fi-only option.</p></li>
+          <li><h3>HLS and DASH capture</h3><p>Detects the stream while it plays, lets you choose quality, audio and subtitles, and turns it into a single MP4 file.</p></li>
+          <li><h3>Background playback</h3><p>Audio and video keep going when you leave Hisn or lock the screen, with controls in the notification.</p></li>
+          <li><h3>True full screen</h3><p>Wide video turns sideways and fills the whole screen, even around the camera cut-out.</p></li>
+          <li><h3>Hisn player</h3><p>Playlists from your downloads, speed, subtitles and quality, a floating window, and it remembers where you stopped. Swipe for volume and brightness, double-tap to skip.</p></li>
+          <li><h3>Play streams from the page</h3><p>Any video Hisn finds on a page, even an m3u8 stream, plays straight in the player without downloading it.</p></li>
+          <li><h3>Save pages</h3><p>Save any page as HTML, or as a full archive with images that opens offline.</p></li>
+          <li><h3>“Open with” from any app</h3><p>“Hisn player” shows up when you open a video, audio, image or text file from your file manager or gallery.</p></li>
+        </ul>
+      </details>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <section class="sec glow" id="blocking" aria-labelledby="block-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-shield"/></svg>Ad blocking</span>
+      <h2 id="block-title">Shut the door on ads, trackers and harmful sites</h2>
+      <p class="sub">Protection is on from the first launch: ads, trackers, cookie banners and notification requests disappear, and adult, gambling, scam, phishing and malware sites don’t open at all.</p>
+    </div>
+    <div class="wrap">
+      <div class="cards g2">
+        <article class="card green wide rv">
+          <h3>A built-in blocker for cleaner, faster pages</h3>
+          <p>Block lists on your phone, updated weekly, a count of what was blocked on every page, and one-tap exceptions when a site misbehaves.</p>
+          <div class="stats">
+            <div class="stat"><b>1,000,000+</b><span>adult sites blocked</span></div>
+            <div class="stat"><b>100×</b><span>faster check per request</span></div>
+            <div class="stat"><b>0</b><span>data sent to any server</span></div>
+          </div>
+        </article>
+        <article class="card rv">
+          <div class="ico"><svg><use href="#i-block"/></svg></div>
+          <h3>Cookie and notification pop-ups? Gone</h3>
+          <p>Hisn hides “accept cookies” banners on thousands of sites and stops “allow notifications” prompts, and gives the page its scrolling back.</p>
+        </article>
+        <article class="card rv">
+          <div class="ico"><svg><use href="#i-shield"/></svg></div>
+          <h3>A website blocker by category</h3>
+          <p>Over a million adult sites from two sources, plus gambling, scam, phishing and ransomware sites. The malware list (2.5 million sites) downloads on Wi‑Fi only.</p>
+        </article>
+      </div>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <section class="sec glow left" id="extensions" aria-labelledby="ext-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-puzzle"/></svg>Extensions</span>
+      <h2 id="ext-title">Extensions, like Chrome, on your phone</h2>
+      <p class="sub">The Hisn store has extensions made for phones that switch on with a tap, and any Greasy Fork user script installs by opening its install link. Every extension has an on/off switch and updates, and its commands show up in the page menu.</p>
+    </div>
+    <div class="wrap">
+      <div class="cards g2">
+        <article class="card sky wide rv">
+          <span class="tag">New in 1.11</span>
+          <h3>The Hisn extension store</h3>
+          <p>Extensions with a frame are on from the moment you install Hisn; the rest are one tap away.</p>
+          <div class="exts">
+            <div class="ext on"><i style="background:#1f8f63"><svg><use href="#i-speed"/></svg></i>Video speed</div>
+            <div class="ext on"><i style="background:#3b6fd8"><svg><use href="#i-eye"/></svg></i>Show password</div>
+            <div class="ext on"><i style="background:#8f6ae8"><svg><use href="#i-copy"/></svg></i>Copy anywhere</div>
+            <div class="ext on"><i style="background:#2d9cdb"><svg><use href="#i-link"/></svg></i>Direct Google links</div>
+            <div class="ext on"><i style="background:#c99a3e"><svg><use href="#i-bulb"/></svg></i>Lights off</div>
+            <div class="ext"><i style="background:#e2557a"><svg><use href="#i-block"/></svg></i>Hide Shorts</div>
+            <div class="ext"><i style="background:#d9534f"><svg><use href="#i-down"/></svg></i>YouTube dislikes</div>
+            <div class="ext"><i style="background:#546069"><svg><use href="#i-pause"/></svg></i>No autoplay</div>
+            <div class="ext"><i style="background:#2b3240"><svg><use href="#i-moon"/></svg></i>Dark everywhere</div>
+            <div class="ext"><i style="background:#13a38f"><svg><use href="#i-bar"/></svg></i>Reading progress</div>
+            <div class="ext"><i style="background:#0f3b28"><svg><use href="#i-up"/></svg></i>Back to top</div>
+          </div>
+        </article>
+        <article class="card green rv">
+          <h3>Manage extensions in one place</h3>
+          <p>Switch any extension on or off, delete it, read its code and the sites it runs on, and check for updates with a tap. Extensions never run in the private window, and each profile has its own.</p>
+        </article>
+        <article class="card rv">
+          <h3>Any Greasy Fork user script</h3>
+          <p>Open a script’s “Install” link in Hisn and an install screen shows what it does and which sites it runs on first. Or install from a link, or paste the code yourself.</p>
+        </article>
+      </div>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <section class="sec glow gold" id="privacy" aria-labelledby="priv-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-lock"/></svg>Privacy</span>
+      <h2 id="priv-title">Privacy isn’t a hidden setting, it’s the foundation</h2>
+      <p class="sub">No account, and no Hisn server at all. What’s yours stays on your phone, and what syncs is encrypted with your passphrase before it leaves.</p>
+    </div>
+    <div class="wrap">
+      <div class="cards g2">
+        <article class="card rv">
+          <h3 class="hl">Locked passwords and notes</h3>
+          <p>Passwords are encrypted with a key in Android Keystore that only your fingerprint opens, and filled in with a tap. Notes have their own password, sync between your devices and are kept in the backup.</p>
+        </article>
+        <article class="card rv">
+          <h3 class="hl">A private window that’s truly separate</h3>
+          <p>Runs in its own process with its own data folder, is wiped completely when closed, and never shows in screenshots.</p>
+        </article>
+      </div>
+      <details class="more">
+        <summary>All privacy features</summary>
+        <ul class="points">
+          <li><h3>Links without tracking</h3><p>Removes parameters like utm, fbclid and gclid before opening links, and sends the Global Privacy Control signal if you turn it on.</p></li>
+          <li><h3>HTTPS only</h3><p>Tries the secure connection first and warns you before opening any unencrypted site.</p></li>
           <li><h3>Fingerprint lock</h3><p>Lock the app with your fingerprint or screen lock, block screenshots, and clear data automatically on exit.</p></li>
-          <li><h3>No cookie or notification pop-ups</h3><p>Hides cookie-consent banners on thousands of sites and stops “allow notifications” requests, and lets the page scroll again.</p></li>
-          <li><h3>Notes with a password</h3><p>Notes with colours, pinning and search, protected by a password (or your fingerprint), encrypted on the phone, synced with your devices and kept in the backup.</p></li>
-          <li><h3>Password manager</h3><p>Offers to save when you sign in and fills accounts with a tap. Passwords are encrypted with an Android Keystore key that only your fingerprint opens; import from Chrome with a CSV file.</p></li>
-          <li><h3>Settings for each site</h3><p>Ads, JavaScript, blocking and clearing a site’s data, from one screen or right from the page menu.</p></li>
+          <li><h3>Per-site settings</h3><p>Ads, JavaScript, blocking and site data for any site, from one screen or straight from the page menu.</p></li>
+          <li><h3>Separate profiles</h3><p>Work, study and fun, each with its own bookmarks, history, tabs and extensions, and different logins on the same sites.</p></li>
+          <li><h3>Encrypted backup</h3><p>An automatic backup of all your data in your own Google Drive, encrypted with your passphrase so nobody else can read it.</p></li>
         </ul>
-      </article>
+      </details>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
 
-      <article class="chapter" aria-labelledby="ch-downloads">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 6 V30 M15 21 L24 30 L33 21 M8 38 H40"/></svg>
-          <h2 id="ch-downloads">Downloads without the wait</h2>
-          <p>An advanced download manager written for Hisn, not the standard system one.</p>
-        </div>
-        <ul class="points">
-          <li><h3>Up to 8 connections per file</h3><p>Splits the file and downloads the parts together, with pause and resume even after the app closes, a speed limit and a Wi‑Fi only option.</p></li>
-          <li><h3>HLS and DASH video capture</h3><p>Detects streams as they play: pick the quality, audio and subtitles, and get a single MP4. DRM-protected content is never downloaded.</p></li>
-          <li><h3>Save page</h3><p>Save any page as HTML, or as a full archive with images that opens without internet.</p></li>
-          <li><h3>Search your downloads</h3><p>Find files by name or site, and filter by type or state: in progress, completed or failed.</p></li>
-        </ul>
-      </article>
+  <section class="sec glow left" id="yours" aria-labelledby="yours-title">
+    <div class="narrow rv">
+      <span class="eyebrow"><svg><use href="#i-swap"/></svg>Yours</span>
+      <h2 id="yours-title">Tools for your day, inside the browser</h2>
+      <p class="sub">Things you would normally need separate apps for, built into Hisn, and working offline too.</p>
+    </div>
+    <div class="wrap">
+      <div class="cards g3">
+        <article class="card cream rv"><div class="ico"><svg><use href="#i-swap"/></svg></div><h3>Jisr: share offline</h3><p>Send photos, videos and files of any size at Wi‑Fi speed to another phone, or to any computer or iPhone from its browser, fully encrypted.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-timer"/></svg></div><span class="tag">New</span><h3>Pomodoro timer</h3><p>Focus for 25 minutes, rest for 5, and take a long break after 4 sessions. It keeps going with the app closed and alerts you when each phase ends.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-note"/></svg></div><h3>Notes with a password</h3><p>Colours, pinning and search, protected by a password or your fingerprint, and encrypted on the phone.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-cloud"/></svg></div><h3>Backup and sync</h3><p>Like WhatsApp: your data saves itself to your Drive and comes back when you change phones, and your devices stay in sync.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-qr"/></svg></div><h3>QR scanner and prayer times</h3><p>A scanner that checks suspicious links before opening them, and prayer times on the start page without location permission.</p></article>
+        <article class="card rv"><div class="ico"><svg><use href="#i-voice"/></svg></div><h3>Read, translate, listen</h3><p>Reader mode, page translation, a PDF reader, full-page screenshots, and articles read aloud.</p></article>
+        <article class="card green wide rv"><div class="ico" style="background:rgba(255,255,255,.16);color:#fff"><svg><use href="#i-game"/></svg></div><h3>“Mo Run” and more offline games</h3><p>Run with Mo the robot through six worlds and fix the giant bugs. Plus “Oasis Jewels”, “Hisn Blocks”, “Hisn Quest” and “Desert Run”.</p></article>
+      </div>
+    </div>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
 
-
-      <article class="chapter" aria-labelledby="ch-media">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="10" width="36" height="28" rx="5"/><path d="M20 18 L31 24 L20 30 Z"/></svg>
-          <h2 id="ch-media">Video and music, done right</h2>
-          <p>A built-in player for all your files, and YouTube that keeps going when you leave.</p>
-        </div>
-        <ul class="points">
-          <li><h3>Background playback</h3><p>Audio and video keep playing when you leave Hisn or lock the screen, with controls in the notification. Works in fullscreen too.</p></li>
-          <li><h3>True fullscreen</h3><p>Wide videos turn sideways and fill the whole screen, camera area included, and no longer pause when you go fullscreen.</p></li>
-          <li><h3>Hisn Player</h3><p>Playlists from your downloads, speed, subtitles and quality, a floating window, and it remembers where you stopped. Swipe for volume and brightness, double-tap to skip.</p></li>
-          <li><h3>Pictures and text files</h3><p>A picture viewer with swipe, zoom and animated images, and a text and code viewer with line numbers that reads old Arabic files correctly.</p></li>
-          <li><h3>Play streams from the page</h3><p>Any video Hisn finds on a page, even an m3u8 stream, plays straight in the player without downloading.</p></li>
-          <li><h3>“Open with” from any app</h3><p>“Hisn Player” appears when you open a video, song, picture or text file from your file manager or gallery.</p></li>
-        </ul>
-      </article>
-
-      <article class="chapter feature" aria-labelledby="ch-devices">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="9" width="16" height="30" rx="3"/><rect x="27" y="13" width="16" height="22" rx="3"/><path d="M21 24 H27 M24 21 L27 24 L24 27"/></svg>
-          <h2 id="ch-devices">Your devices, together</h2>
-          <p>Sharing and sync, without your data passing through anyone’s server.</p>
-        </div>
-        <ul class="points">
-          <li><h3>Jisr: sharing without internet</h3><p>The receiver shows a code, the sender scans it, and its phone joins a private Wi-Fi made by Hisn to send files of any size in their original quality.</p></li>
-          <li><h3>To any computer or iPhone</h3><p>In “Jisr → Any device” Hisn shows an address and a code. Open it in the browser of any device, Windows, Mac or iPhone, to send and receive files with no app, even without internet.</p></li>
-          <li><h3>Shared clipboard</h3><p>Copy text or a link on the computer and paste it on the phone, or the other way round, in one tap.</p></li>
-          <li><h3>Picks up where it stopped</h3><p>If the connection drops in the middle of a big file, Hisn reconnects and continues from the last piece that arrived instead of starting over.</p></li>
-          <li><h3>End-to-end encrypted</h3><p>Every session gets fresh keys (ECDH and AES-256), and nearby devices show the same symbols so you know nobody is in between.</p></li>
-          <li><h3>Share to Hisn from any app</h3><p>In your gallery or files choose “Share → Hisn Jisr”, then scan the other device’s code. The “Received” page opens your files in the player.</p></li>
-          <li><h3>Automatic backup and sync</h3><p>An automatic backup of all your data in your own Google Drive, restored on any phone with your passphrase or recovery key. Linked devices keep themselves in sync: bookmarks, history, shortcuts, passwords and tabs.</p></li>
-        </ul>
-      </article>
-
-      <article class="chapter" aria-labelledby="ch-tools">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="13" height="13" rx="2"/><rect x="28" y="7" width="13" height="13" rx="2"/><rect x="7" y="28" width="13" height="13" rx="2"/><path d="M28 28 h5 v5 h-5 Z M36 36 h5 v5 h-5 Z M28 36 v5 M36 28 h5"/></svg>
-          <h2 id="ch-tools">Tools for your day</h2>
-          <p>Things you’d usually need separate apps for, built into the browser.</p>
-        </div>
-        <ul class="points">
-          <li><h3>Separate profiles</h3><p>Work, study and fun, each with its own bookmarks, history and tabs, and different logins on the same sites.</p></li>
-          <li><h3>Offline QR scanner</h3><p>Reads links, Wi‑Fi networks and contacts, checks suspicious links before opening them, and makes a QR code for any page.</p></li>
-          <li><h3>Prayer times on the start page</h3><p>The Rafiqi card works out prayer times on your phone, with no internet and no location permission.</p></li>
-          <li><h3>Read, translate, print</h3><p>Reader mode, page translation, find in page, a PDF reader, and full-length page screenshots.</p></li>
-          <li><h3>Read aloud</h3><p>Articles read to you in Arabic and English with your phone’s voice, with pause, skip and speed control.</p></li>
-          <li><h3>Extensions, like Chrome</h3><p>A Hisn store with 10 extensions: video speed, show password, copy on any site, direct Google links, hide Shorts and more. Install any Greasy Fork user script with one tap.</p></li>
-          <li><h3>A Chrome-style address bar</h3><p>The current page to edit, copy or share, your shortcuts, recent searches, and search suggestions as you type.</p></li>
-          <li><h3>Move from Chrome in a minute</h3><p>Import bookmarks and history from Chrome and other browsers, passwords from a CSV file, and export your bookmarks any time.</p></li>
-          <li><h3>Offline games</h3><p>“Mo Run”: an endless run with robot Mo through six worlds, with bosses, super powers, a shop and daily missions. “Oasis Jewels”: thirty levels with special gems and stars. “Hisn Blocks”: fill rows and columns and build combos. “Hisn Quest”: eight levels to the fortress. And “Desert Run” for quick play.</p></li>
-        </ul>
-      </article>
-
-      <article class="chapter" aria-labelledby="ch-design">
-        <div class="chapter-head">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M24 6 C14 6 6 13 6 23 C6 33 14 42 23 42 C26 42 27 40 27 38 C27 35 25 34 25 32 C25 30 27 29 29 29 H34 C38 29 42 26 42 21 C42 12 34 6 24 6 Z"/><circle cx="16" cy="20" r="2.5"/><circle cx="24" cy="14" r="2.5"/><circle cx="32" cy="18" r="2.5"/></svg>
-          <h2 id="ch-design">Make it yours</h2>
-          <p>A right-to-left Arabic interface, with English always available.</p>
-        </div>
-        <ul class="points">
-          <li>
-            <h3>Six colours, or your wallpaper’s</h3>
-            <p>Pick the app colour, or let it follow your wallpaper on Android 12 and newer.</p>
-            <div class="swatches" aria-hidden="true">
-              <span style="background:#216A4D"></span><span style="background:#405F90"></span><span style="background:#006972"></span><span style="background:#7F560F"></span><span style="background:#8E4958"></span><span style="background:#546069"></span>
-            </div>
-          </li>
-          <li><h3>Dark and pure black</h3><p>A comfortable dark mode, and true black for OLED screens.</p></li>
-          <li><h3>Address bar on top or bottom</h3><p>Put it where your thumb prefers. On tablets, a tab strip sits above the page like a desktop browser.</p></li>
-          <li><h3>Site icons and a tidy menu</h3><p>Each site’s icon in tabs, bookmarks and history, a quick menu of buttons, and settings grouped into clear sections.</p></li>
-          <li><h3>A clear Arabic typeface</h3><p>IBM Plex Sans Arabic throughout, or switch back to your phone’s font.</p></li>
-        </ul>
-      </article>
+  <section class="sec" id="compare" aria-labelledby="cmp-title">
+    <div class="narrow">
+      <h2 id="cmp-title" style="text-align:center;margin-inline:auto">Hisn vs. other browsers</h2>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead><tr><td></td><th class="us">Hisn</th><th>Chrome</th><th>Firefox</th><th>Brave</th></tr></thead>
+          <tbody>
+            <tr><th colspan="5">Video</th></tr>
+            <tr><td>Video and stream downloads (HLS, DASH)</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="p" aria-label="Partly"></span></td></tr>
+            <tr><td>Background video playback</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="y" aria-label="Yes"></span></td><td><span class="y" aria-label="Yes"></span></td></tr>
+            <tr><td>Multi-connection, resumable downloads</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td></tr>
+            <tr><th colspan="5">Blocking</th></tr>
+            <tr><td>Built-in ad blocker</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="p" aria-label="With an add-on"></span></td><td><span class="y" aria-label="Yes"></span></td></tr>
+            <tr><td>Cookie banners hidden</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="p" aria-label="Partly"></span></td><td><span class="y" aria-label="Yes"></span></td></tr>
+            <tr><td>Adult and gambling sites blocked by category</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td></tr>
+            <tr><th colspan="5">Tools</th></tr>
+            <tr><td>Extensions and user scripts on Android</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td></tr>
+            <tr><td>Offline file sharing with any device</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td></tr>
+            <tr><td>Password-locked notes and a Pomodoro timer</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td></tr>
+            <tr><th colspan="5">Privacy</th></tr>
+            <tr><td>Sync without an account</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="n" aria-label="No"></span></td><td><span class="y" aria-label="Yes"></span></td></tr>
+            <tr><td>Passwords opened by fingerprint</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="y" aria-label="Yes"></span></td><td><span class="y" aria-label="Yes"></span></td><td><span class="y" aria-label="Yes"></span></td></tr>
+            <tr><td>Arabic-first interface</td><td class="us"><span class="y" aria-label="Yes"></span></td><td><span class="p" aria-label="Translated"></span></td><td><span class="p" aria-label="Translated"></span></td><td><span class="p" aria-label="Translated"></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="legend"><span><span class="y"></span>Available</span><span><span class="p"></span>Partly or with an add-on</span><span><span class="n"></span>Not available</span></div>
+      <p class="cmp-note">Compared with the Android versions and their default settings, October 2026. Features change with updates.</p>
     </div>
   </section>
 
-
-  <section class="section all-features" aria-labelledby="all-title">
+  <section class="sec glow gold" aria-labelledby="never-title">
     <div class="wrap">
-      <div class="intro">
-        <h2 id="all-title">Everything in Hisn</h2>
-        <p>The full list. ✦ marks what was added recently.</p>
-      </div>
-      <div class="chip-groups">
-        <div><h3>Privacy and security</h3><ul class="chips">
-          <li>Ad and tracker blocking</li><li class="new">Website blocker on by default</li><li>Isolated private window</li><li>HTTPS only</li><li>Tracking codes removed from links</li><li>GPC signal</li><li>Fingerprint lock</li><li>Screenshot blocking</li><li>Clear data on exit</li><li class="new">Password manager</li><li class="new">Password generator</li><li class="new">Per-site settings</li><li>JavaScript per site</li>
-        </ul></div>
-        <div><h3>Video and downloads</h3><ul class="chips">
-          <li>8-connection download manager</li><li>Pause and resume</li><li>HLS and DASH capture</li><li>Save page as HTML or MHTML</li><li class="new">Download search and dates</li><li>Background playback</li><li class="new">True fullscreen</li><li class="new">Hisn Player for video and music</li><li class="new">Floating window</li><li class="new">Picture and text viewers</li><li class="new">Play streams from a page</li>
-        </ul></div>
-        <div><h3>Your devices</h3><ul class="chips">
-          <li class="new">Jisr: offline sharing</li><li class="new">Private Wi-Fi</li><li class="new">Share from any app</li><li class="new">Send to any computer or iPhone</li><li class="new">Shared clipboard</li><li class="new">Resume interrupted transfers</li><li class="new">Automatic encrypted sync</li><li class="new">Automatic Drive backup</li><li class="new">Tabs from your other devices</li><li>Separate profiles</li><li>Backup and restore</li><li class="new">Import from Chrome</li><li class="new">Bookmark export</li>
-        </ul></div>
-        <div><h3>Everyday browsing</h3><ul class="chips">
-          <li class="new">Extensions and user scripts</li><li class="new">Hisn extension store</li><li class="new">Chrome-style address bar</li><li class="new">Pull to refresh from the top</li><li class="new">Tab search</li><li class="new">Home-screen widget</li><li class="new">Data saver</li><li class="new">Profile photos</li><li class="new">Search suggestions</li><li class="new">Site icons</li><li>Tablet tab strip</li><li>Tab groups and inactive tabs</li><li>Voice search</li><li>Reader mode</li><li class="new">Read aloud</li><li>Translate</li><li>PDF reader</li><li>Full-page screenshots</li><li>QR scanner</li><li>Prayer times</li><li>Desktop site</li><li class="new">Offline games</li><li class="new">Mo Run</li><li class="new">Oasis Jewels</li><li class="new">Hisn Blocks</li><li class="new">In-app updates</li>
-        </ul></div>
+      <h2 id="never-title" style="text-align:center;margin-inline:auto">What Hisn will never do</h2>
+      <div class="never">
+        <div>Ask you for an account</div>
+        <div>Send your history to any server</div>
+        <div>Show ads or carry trackers</div>
+        <div>Bypass certificate errors</div>
       </div>
     </div>
   </section>
 
-  <section class="section install" id="install" aria-labelledby="install-title">
+  <section class="sec" id="install" aria-labelledby="install-title">
     <div class="wrap">
-      <div class="intro">
-        <h2 id="install-title">Install in a minute</h2>
-        <p>Hisn isn’t on Google Play yet, so it installs straight from the APK file.</p>
-      </div>
+      <h2 id="install-title">Install in a minute</h2>
+      <p class="sub">Hisn isn’t on Google Play yet, so it installs from an APK file, and after that it updates itself from inside the app.</p>
       <ol class="steps">
-        <li><h3>Download the file</h3><p>Tap the download button on your phone. Hisn.apk is saved to Downloads.</p></li>
+        <li><h3>Download the file</h3><p>Tap the download button on your phone and Hisn.apk is saved to your downloads.</p></li>
         <li><h3>Allow the install</h3><p>Open the file. If Android asks to allow installs from your browser or file manager, allow it once.</p></li>
-        <li><h3>Open Hisn</h3><p>Tap Install, then Open. You can make it your default browser in Settings.</p></li>
+        <li><h3>Open Hisn</h3><p>Tap “Install”, then “Open”. You can make it your default browser in Settings.</p></li>
       </ol>
-
-      <div class="download-box">
+      <div class="card dark dl rv" style="margin-top:20px">
         <dl>
           <dt>Version</dt><dd data-hisn="version">1.11.0 (429194)</dd>
           <dt>Size</dt><dd><span data-hisn="size">10</span> MB</dd>
           <dt>Requires</dt><dd>Android 9 or newer</dd>
           <dt>SHA-256</dt><dd><code data-hisn="sha">db9ce4664698ea430210c17f2ece08c67fbba598be732ce221c5b3d71773b117</code></dd>
+          <dt>Windows SHA-256</dt><dd><code data-hisn="win-sha">b608805ea97a97dfe2393ab9b6617af2aa40a6e8c5139fb5c8d9d9dc464d8e6a</code></dd>
         </dl>
-        <a class="btn" href="../download/Hisn.apk">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-          Download APK
-        </a>
+        <a class="btn" href="../download/Hisn.apk"><svg><use href="#i-dl"/></svg>Download APK</a>
       </div>
     </div>
   </section>
 
-  <section class="section" id="faq" aria-labelledby="faq-title">
-    <div class="wrap">
-      <div class="intro"><h2 id="faq-title">Questions</h2></div>
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="narrow">
+      <h2 id="faq-title">Questions</h2>
       <div class="faq">
         <details><summary>Is Hisn free?</summary><p>Yes, completely free, with no ads or subscriptions.</p></details>
-        <details><summary>How do I update?</summary><p>Inside Hisn: Settings → Updates &amp; about. When a new version is out, a “Download update” button appears; install it over the current one and your bookmarks, history and settings stay as they are.</p></details>
-        <details><summary>How does sharing without internet work?</summary><p>Open Jisr on both devices. The receiver taps “Receive”, Hisn makes a private Wi-Fi and shows a code; the sender scans it, joins that Wi-Fi by itself and sends. Files travel directly and encrypted, with no internet or data plan.</p></details>
-        <details><summary>Can I send to a computer or iPhone without Hisn?</summary><p>Yes. Open “Jisr → Any device” and tap “Open for other devices”. If the other device is on the same Wi-Fi, open the address shown in its browser. If not, Hisn makes a private Wi-Fi the other device joins first (an iPhone can scan its code with the camera). Then you send and receive files and swap text from a page in the browser.</p></details>
-        <details><summary>Is sync safe?</summary><p>Yes. Hisn encrypts the backup and the sync file on your device with a passphrase you choose before saving them to your own Google Drive, so neither Google nor anyone else can read them. Hisn has no server at all.</p></details>
-        <details><summary>What engine does Hisn use?</summary><p>Pages are rendered by Android System WebView, which is based on Chromium and updates from your phone’s app store. That’s also why Chrome extensions aren’t supported.</p></details>
-        <details><summary>Does the private window hide who I am?</summary><p>No. It keeps nothing on your phone, but websites, your network and your internet provider can still see your activity. For anonymity you need a VPN or Tor.</p></details>
-        <details><summary>Can it download any video?</summary><p>It downloads direct files and unprotected streams (HLS and DASH). DRM-protected content and live streams are not downloaded, and Hisn tells you so.</p></details>
-        <details><summary>Where is my data stored?</summary><p>Only on your phone. Hisn has no server, never sends your history, bookmarks or downloads anywhere, and its data is excluded from cloud backup.</p></details>
+        <details><summary>How do I update it?</summary><p>Inside Hisn: Settings → Updates and about. When a new version is out, a “Download update” button appears; install it over the current one and your bookmarks, history and settings stay as they are.</p></details>
+        <details><summary>Does it support Chrome extensions?</summary><p>Hisn runs user scripts in the Tampermonkey format, which covers most of what people use extensions for: from the Hisn store or from Greasy Fork. Chrome Web Store extensions themselves (CRX files) are not supported, because Hisn uses Android System WebView.</p></details>
+        <details><summary>Does the private window hide who I am?</summary><p>No. It keeps anything from being saved on your device, but websites, your network and your internet provider still see your activity. To hide your identity you need a VPN or Tor.</p></details>
+        <details><summary>Can it download any video?</summary><p>It downloads direct files and unprotected streams (HLS and DASH). DRM-protected content and live streams are not downloaded, and Hisn tells you so clearly.</p></details>
+        <details><summary>How does sharing work without internet?</summary><p>Open “Jisr” on both devices. The receiver taps “Receive”, Hisn creates a private Wi‑Fi network and shows a code, and the sender scans it, joins automatically and sends. Files travel directly and encrypted.</p></details>
+        <details><summary>Are sync and backup safe?</summary><p>Yes. Hisn encrypts the backup and the sync file on your device with a passphrase you choose before they are saved to your own Google Drive, so neither Google nor anyone else can read them. There is no Hisn server at all.</p></details>
+        <details><summary>Does the timer keep going if I close the app?</summary><p>Yes. The Pomodoro timer sets a system alarm and shows a countdown notification and an alert when each phase ends, even with the screen locked.</p></details>
       </div>
     </div>
   </section>
 </main>
 
-<footer class="site-foot">
+<section class="band" aria-labelledby="band-title">
   <div class="wrap">
-    <a class="brand" href="./"><img src="../assets/logo.svg" alt="" width="26" height="35"><span>Hisn</span></a>
-    <p>Designed and developed by Mohammed Hussein, <a href="https://iegy.net/">iegy.net</a>. <a href="privacy.html">Privacy policy</a>. © 2026 All rights reserved.</p>
+    <h2 id="band-title">One Arabic browser: video, downloads, blocking and extensions</h2>
+    <p>Browse, watch and download, shut out ads and trackers, and add the extensions you like.</p>
+    <div class="row">
+      <a href="../download/Hisn.apk"><svg><use href="#i-android"/></svg>Android</a>
+      <a href="#hero-title"><svg><use href="#i-win"/></svg>Windows</a>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 40V22c120-14 240-14 360 0s240 14 360 0 240-14 360 0 240 14 360 0v18z"/></svg>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="community">
+      <h2>Got an idea for Hisn?</h2>
+      <p>Hisn grows with the suggestions of the people who use it. Send your idea or a problem you hit, and we’ll look at it for the next update.</p>
+      <a class="go" href="https://iegy.net/">Contact the developer</a>
+    </div>
+    <div class="cols">
+      <div><h4>Features</h4><a href="#video">Video and downloads</a><a href="#blocking">Ad blocking</a><a href="#extensions">Extensions</a><a href="#privacy">Privacy</a></div>
+      <div><h4>Download</h4><a href="../download/Hisn.apk">Android</a><a href="#hero-title">Windows</a><a href="#install">How to install</a></div>
+      <div><h4>Help</h4><a href="#faq">Questions</a><a href="#compare">Compare</a><a href="../privacy.html">Privacy policy</a></div>
+      <div><h4>Language</h4><a href="../" hreflang="ar" lang="ar">العربية</a><a href="./">English</a></div>
+    </div>
+    <div class="copy">
+      <a class="brand" href="./"><img src="../assets/logo.svg" alt="" width="22" height="29"><span>Hisn</span></a>
+      <span>Designed and built by Mohammed Hussein, <a href="https://iegy.net/">iegy.net</a> · © 2026 All rights reserved</span>
+    </div>
   </div>
 </footer>
+
+<script>
+(function () {
+  var els = document.querySelectorAll('.rv');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px' });
+  els.forEach(function (e) { io.observe(e); });
+})();
+</script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 {
-  "versionCode": 429230,
-  "versionName": "1.12.0",
+  "versionCode": 429256,
+  "versionName": "1.12.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 9912540,
-  "sha256": "aab299dfc2cee6f81d17d3bd6fb7b705ca1d1faab4a72df0f08fbb11d5f1e8d8",
-  "notesAr": "مؤقّت بومودورو: ركّز 25 دقيقة واستريح 5، وبعد 4 جلسات استراحة طويلة. شغّال حتى والتطبيق مقفول، مع إشعار بالعدّ التنازلي وتنبيه لما المرحلة تخلص، وتقدر تغيّر المُدد",
-  "notesEn": "Pomodoro timer: 25 minutes of focus, 5 of rest, and a long break after 4 sessions. It keeps going with the app closed, with a countdown notification and an alert when each phase ends; all lengths can be changed"
+  "sha256": "f4e4c66f4a02d1508716c7b93509866421da70db3ca754507668bae549da09bc",
+  "notesAr": "«إطفاء الأنوار» بقت تشتغل على يوتيوب (كانت بتتمنع بسبب حماية Trusted Types) وعلى المشغّلات المضمّنة زي ديلي موشن وفيديوهات يوتيوب جوه المواقع (الصفحة بتغمق حوالين المشغّل)",
+  "notesEn": "\"Lights off\" now works on YouTube (it was blocked by Trusted Types) and with embedded players such as Dailymotion and YouTube embeds (the page darkens around the player)"
 }

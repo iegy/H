@@ -1,9 +1,9 @@
 {
-  "versionCode": 429194,
-  "versionName": "1.11.0",
+  "versionCode": 429230,
+  "versionName": "1.12.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 9867840,
-  "sha256": "db9ce4664698ea430210c17f2ece08c67fbba598be732ce221c5b3d71773b117",
-  "notesAr": "الإضافات: متجر حصن فيه 10 إضافات (سرعة الفيديو، إظهار كلمة السر، النسخ في أي موقع، روابط جوجل المباشرة، إخفاء Shorts، عدّاد عدم الإعجاب في يوتيوب، إيقاف التشغيل التلقائي، الوضع الداكن، شريط القراءة، زر الرجوع لأعلى) وأول 4 متثبّتين وشغالين",
-  "notesEn": "Extensions: a Hisn store with 10 extensions (video speed, show password, copy on any site, direct Google links, hide Shorts, YouTube dislikes, no autoplay, dark mode, reading progress, back to top); the first 4 are installed and on"
+  "size": 9912540,
+  "sha256": "aab299dfc2cee6f81d17d3bd6fb7b705ca1d1faab4a72df0f08fbb11d5f1e8d8",
+  "notesAr": "مؤقّت بومودورو: ركّز 25 دقيقة واستريح 5، وبعد 4 جلسات استراحة طويلة. شغّال حتى والتطبيق مقفول، مع إشعار بالعدّ التنازلي وتنبيه لما المرحلة تخلص، وتقدر تغيّر المُدد",
+  "notesEn": "Pomodoro timer: 25 minutes of focus, 5 of rest, and a long break after 4 sessions. It keeps going with the app closed, with a countdown notification and an alert when each phase ends; all lengths can be changed"
 }

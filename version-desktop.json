@@ -1,9 +1,9 @@
 {
-  "versionCode": 1009000,
-  "versionName": "1.9.0",
-  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.9.0/Hisn-Setup-1.9.0.msi",
+  "versionCode": 1009001,
+  "versionName": "1.9.1",
+  "installerUrl": "https://github.com/iegy/H/releases/download/desktop-v1.9.1/Hisn-Setup-1.9.1.msi",
   "size": 121656350,
-  "sha256": "70db1444efb2c1a39a3f18e988c03efa9507b4cc95ea681b8661b83e6cca33aa",
-  "notesAr": "قارئ مدمج للملفات والمستندات والصور والميديا (Ctrl+O أو «عرض في حصن» من التنزيلات)",
-  "notesEn": "Built-in viewer for images, media, PDF, Word, Excel, PowerPoint and text files (Ctrl+O or 'View in Hisn' in downloads)"
+  "sha256": "b585722ffc4ef7aa5e89303d1a3a49c2ecd6da5dec07749578ea1c848ebc2281",
+  "notesAr": "تسجيل مسار الإغلاق في اللوج لتشخيص الإغلاق المفاجئ",
+  "notesEn": "Log the quit path to diagnose unexpected exits"
 }

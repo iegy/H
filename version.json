@@ -1,9 +1,9 @@
 {
-  "versionCode": 429289,
-  "versionName": "1.12.2",
+  "versionCode": 429328,
+  "versionName": "1.12.3",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 9912540,
-  "sha256": "1862daa6b5a7e6aa9c6add0a41ccb5de3c566aa80516cf5b5f820c503bde3e38",
-  "notesAr": "«إطفاء الأنوار» بقت تغمّق كمان الشريط العلوي للموقع (زي شريط يوتيوب) لأن الإظلام بقى فوق كل طبقات الصفحة",
-  "notesEn": "\"Lights off\" now also darkens the site's top bar (like YouTube's), as the shade now sits above every layer of the page"
+  "sha256": "76db6cb6d60a6243ed3545e2fd53523eaad6cdfa8bbde5d0746f46c993b83ed8",
+  "notesAr": "فتح أسرع: محرّك الصفحات بيتحمّل وهو بيقرا التبويبات والإعدادات، والتبويبات المحفوظة بتتقري في نفس الوقت مع الإعدادات",
+  "notesEn": "Faster start: the page engine loads while tabs and settings are read, and saved tabs are read alongside the settings"
 }

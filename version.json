@@ -1,9 +1,9 @@
 {
-  "versionCode": 430361,
-  "versionName": "1.12.4",
+  "versionCode": 430599,
+  "versionName": "1.12.5",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 9914196,
-  "sha256": "61816c7280b9766d6248cfa065d8097df5ca82f1fe4c24cb8b35efeae0aae6b3",
-  "notesAr": "شاشة «جسر» في حصن بقت بتعرّفك إن جسر موجود كمان كتطبيق لوحده بخصائص أكتر (فولدرات كاملة، ملفات بأي حجم، برنامج ويندوز، نقل من موبايل لموبايل) مع رابط iegy.net/jisr، وتقدر تخفي الرسالة",
-  "notesEn": "Hisn's Jisr screen now mentions that Jisr is also a standalone app with more features (whole folders, files of any size, a Windows app, phone-to-phone moving), linking to iegy.net/jisr; the note can be dismissed"
+  "size": 9930580,
+  "sha256": "4065d7ebd9e9319a41ea795ce645fd038e7778ac35c639f2daf5e33cf802e634",
+  "notesAr": "الملفات اللي كانت بتنزل باسم .bin (زي ملفات Word من Claude أو ملفات مضغوطة من مواقع تانية) بقت بتنزل باسمها ونوعها الصح",
+  "notesEn": "Files that were saved as .bin (like Word files from Claude or archives from other sites) now keep their real name and type"
 }

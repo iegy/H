@@ -1,9 +1,9 @@
 {
-  "versionCode": 430599,
-  "versionName": "1.12.5",
+  "versionCode": 437438,
+  "versionName": "1.13.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 9930580,
-  "sha256": "4065d7ebd9e9319a41ea795ce645fd038e7778ac35c639f2daf5e33cf802e634",
-  "notesAr": "الملفات اللي كانت بتنزل باسم .bin (زي ملفات Word من Claude أو ملفات مضغوطة من مواقع تانية) بقت بتنزل باسمها ونوعها الصح",
-  "notesEn": "Files that were saved as .bin (like Word files from Claude or archives from other sites) now keep their real name and type"
+  "size": 9952764,
+  "sha256": "7a627e589c13f68327067cae5004830c39ae4340916a8c72038cb074e31a573b",
+  "notesAr": "ملفات HTML بقت بتتفتح كصفحة حقيقية جوه حصن (مش كود بس)، وزرار «اعرض الكود» موجود، والملف بيشتغل في مساحة معزولة ما تقدرش توصل لمواقعك ولا لملفاتك",
+  "notesEn": "HTML files now open as real pages inside Hisn (not only as code), with a \"Show the code\" button; the file runs in an isolated space that cannot reach your sites or files"
 }

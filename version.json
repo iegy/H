@@ -1,9 +1,9 @@
 {
-  "versionCode": 437438,
-  "versionName": "1.13.0",
+  "versionCode": 437900,
+  "versionName": "1.14.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 9952764,
-  "sha256": "7a627e589c13f68327067cae5004830c39ae4340916a8c72038cb074e31a573b",
-  "notesAr": "ملفات HTML بقت بتتفتح كصفحة حقيقية جوه حصن (مش كود بس)، وزرار «اعرض الكود» موجود، والملف بيشتغل في مساحة معزولة ما تقدرش توصل لمواقعك ولا لملفاتك",
-  "notesEn": "HTML files now open as real pages inside Hisn (not only as code), with a \"Show the code\" button; the file runs in an isolated space that cannot reach your sites or files"
+  "size": 9973736,
+  "sha256": "299c9816ebc8c0957b90ecc6eca5cbe827a2e76782ddb51f700687724e01f6c1",
+  "notesAr": "منع الإعلانات المنبثقة: الضغط في أي مكان في الصفحة مبقاش بيفتح إعلان، والنوافذ اللي بتفتح على مواقع إعلانات بتتقفل، والصفحة مبقتش تتحوّل لإعلان لما تدوس على رابط (جرّبناها على مواقع زي عرب سيد)",
+  "notesEn": "Pop-up ads stopped: tapping anywhere on a page no longer opens an ad, windows that open ad sites are closed, and a page can no longer turn into an ad when you tap a link (tested on sites like ArabSeed)"
 }

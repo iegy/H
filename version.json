@@ -1,9 +1,9 @@
 {
-  "versionCode": 437900,
-  "versionName": "1.14.0",
+  "versionCode": 437940,
+  "versionName": "1.14.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 9973736,
-  "sha256": "299c9816ebc8c0957b90ecc6eca5cbe827a2e76782ddb51f700687724e01f6c1",
-  "notesAr": "منع الإعلانات المنبثقة: الضغط في أي مكان في الصفحة مبقاش بيفتح إعلان، والنوافذ اللي بتفتح على مواقع إعلانات بتتقفل، والصفحة مبقتش تتحوّل لإعلان لما تدوس على رابط (جرّبناها على مواقع زي عرب سيد)",
-  "notesEn": "Pop-up ads stopped: tapping anywhere on a page no longer opens an ad, windows that open ad sites are closed, and a page can no longer turn into an ad when you tap a link (tested on sites like ArabSeed)"
+  "size": 9974524,
+  "sha256": "c65408247d8610c68d048d65d3a000ffec77f54718ceff1814ddc62bfc344ca7",
+  "notesAr": "الفيديو في النافذة العائمة مبقاش بيقف لوحده، وبقى فيه زرار تشغيل/إيقاف على النافذة نفسها",
+  "notesEn": "A video in the floating window no longer pauses by itself, and the window now has a play/pause button"
 }

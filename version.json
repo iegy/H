@@ -1,9 +1,9 @@
 {
-  "versionCode": 438077,
-  "versionName": "1.15.3",
+  "versionCode": 439183,
+  "versionName": "1.15.4",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10121212,
-  "sha256": "0391e7da480afa395e69afab1fe729155602d6297655984bec19465d9e502eee",
-  "notesAr": "الفيديو في النافذة العائمة مبقاش بيقف لوحده: على بعض الموبايلات (زي شاومي) أندرويد كان بيوقّف حصن والنافذة لسه ظاهرة، وده كان بيوقّف الفيديو. ولو الموقع نفسه وقّفه، حصن بيرجّع يشغّله طول ما انت مدوستش إيقاف",
-  "notesEn": "The video in the floating window no longer stops by itself: on some phones (Xiaomi among them) Android stopped Hisn while the window was still showing, which paused the video. If the site pauses it, Hisn starts it again unless you pressed pause"
+  "sha256": "0b83a297d933c12ad5329b0309756141ea7639ac801be6c6721441be3da762f7",
+  "notesAr": "النافذة العائمة: حصن بقى يخلّي الصفحة شغّالة وبترسم طول ما النافذة ظاهرة، عشان الصورة متتجمدش على لقطة واحدة",
+  "notesEn": "Floating window: Hisn keeps the page running and drawing while the window shows, so the picture no longer freezes on one frame"
 }

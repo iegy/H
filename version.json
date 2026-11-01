@@ -1,9 +1,9 @@
 {
-  "versionCode": 437975,
-  "versionName": "1.15.0",
+  "versionCode": 438011,
+  "versionName": "1.15.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10101024,
-  "sha256": "84742b90d41f9de5312f53c86111481e3addd4ebff59f8388c6e155bad0c3ef5",
-  "notesAr": "حارس الحصن: مساعد جوه حصن عارف كل خصائصه. اسأله أو قوله \"افتح وضع القراءة\" أو \"شغّل بومودورو\" وينفّذ على طول",
-  "notesEn": "Haris, the Hisn Guard: a helper inside Hisn that knows every feature. Ask it, or tell it \"open reader mode\" or \"start Pomodoro\", and it does it"
+  "size": 10104828,
+  "sha256": "384ae8847c59ac5a5227d452ee5b9d8d16940dec96f8199e76c3e29008a65211",
+  "notesAr": "شكل جديد للحارس زي تطبيقات المحادثة: شاشة ترحيب باقتراحات، ورسايلك في فقاعة والحارس بيرد جنب وشّه، ومكان كتابة مدوّر فوق الكيبورد على طول",
+  "notesEn": "Haris looks like a chat app now: a welcome screen with suggestions, your messages in bubbles and the guard's replies beside its face, and a rounded typing box that sits right above the keyboard"
 }

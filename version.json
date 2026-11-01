@@ -1,9 +1,9 @@
 {
-  "versionCode": 438044,
-  "versionName": "1.15.2",
+  "versionCode": 438077,
+  "versionName": "1.15.3",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10104828,
-  "sha256": "9119229322bdad77fe88f5ea3666624cb9fb16383ffa013aa15fa787bb39457a",
-  "notesAr": "إجابات جوجل جوه الحارس بقت تظهر تاني وأسرع، والصفحة مبقتش بتفضل فاضية",
-  "notesEn": "Google's answers show again inside Haris, and faster; the page no longer stays blank"
+  "size": 10121212,
+  "sha256": "0391e7da480afa395e69afab1fe729155602d6297655984bec19465d9e502eee",
+  "notesAr": "الفيديو في النافذة العائمة مبقاش بيقف لوحده: على بعض الموبايلات (زي شاومي) أندرويد كان بيوقّف حصن والنافذة لسه ظاهرة، وده كان بيوقّف الفيديو. ولو الموقع نفسه وقّفه، حصن بيرجّع يشغّله طول ما انت مدوستش إيقاف",
+  "notesEn": "The video in the floating window no longer stops by itself: on some phones (Xiaomi among them) Android stopped Hisn while the window was still showing, which paused the video. If the site pauses it, Hisn starts it again unless you pressed pause"
 }

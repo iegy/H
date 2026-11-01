@@ -1,9 +1,9 @@
 {
-  "versionCode": 437940,
-  "versionName": "1.14.1",
+  "versionCode": 437975,
+  "versionName": "1.15.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 9974524,
-  "sha256": "c65408247d8610c68d048d65d3a000ffec77f54718ceff1814ddc62bfc344ca7",
-  "notesAr": "الفيديو في النافذة العائمة مبقاش بيقف لوحده، وبقى فيه زرار تشغيل/إيقاف على النافذة نفسها",
-  "notesEn": "A video in the floating window no longer pauses by itself, and the window now has a play/pause button"
+  "size": 10101024,
+  "sha256": "84742b90d41f9de5312f53c86111481e3addd4ebff59f8388c6e155bad0c3ef5",
+  "notesAr": "حارس الحصن: مساعد جوه حصن عارف كل خصائصه. اسأله أو قوله \"افتح وضع القراءة\" أو \"شغّل بومودورو\" وينفّذ على طول",
+  "notesEn": "Haris, the Hisn Guard: a helper inside Hisn that knows every feature. Ask it, or tell it \"open reader mode\" or \"start Pomodoro\", and it does it"
 }

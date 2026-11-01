@@ -1,9 +1,9 @@
 {
-  "versionCode": 438011,
-  "versionName": "1.15.1",
+  "versionCode": 438044,
+  "versionName": "1.15.2",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10104828,
-  "sha256": "384ae8847c59ac5a5227d452ee5b9d8d16940dec96f8199e76c3e29008a65211",
-  "notesAr": "شكل جديد للحارس زي تطبيقات المحادثة: شاشة ترحيب باقتراحات، ورسايلك في فقاعة والحارس بيرد جنب وشّه، ومكان كتابة مدوّر فوق الكيبورد على طول",
-  "notesEn": "Haris looks like a chat app now: a welcome screen with suggestions, your messages in bubbles and the guard's replies beside its face, and a rounded typing box that sits right above the keyboard"
+  "sha256": "9119229322bdad77fe88f5ea3666624cb9fb16383ffa013aa15fa787bb39457a",
+  "notesAr": "إجابات جوجل جوه الحارس بقت تظهر تاني وأسرع، والصفحة مبقتش بتفضل فاضية",
+  "notesEn": "Google's answers show again inside Haris, and faster; the page no longer stays blank"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 439183,
-  "versionName": "1.15.4",
+  "versionCode": 439218,
+  "versionName": "1.15.5",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10121212,
-  "sha256": "0b83a297d933c12ad5329b0309756141ea7639ac801be6c6721441be3da762f7",
-  "notesAr": "النافذة العائمة: حصن بقى يخلّي الصفحة شغّالة وبترسم طول ما النافذة ظاهرة، عشان الصورة متتجمدش على لقطة واحدة",
-  "notesEn": "Floating window: Hisn keeps the page running and drawing while the window shows, so the picture no longer freezes on one frame"
+  "sha256": "d2a0e7c5b0821348a590b1b2091d6d20743bf1856a7d923563ab9d1d0c5e86a3",
+  "notesAr": "النافذة العائمة: مشغّل يوتيوب مبقاش بيتخبّى وراه الفيديو (كان بيعتبر نفسه مستخبّي فيوقّف الفيديو)، وأزرار الموقع لسه مستخبية",
+  "notesEn": "Floating window: YouTube's player is no longer hidden behind the video (it took itself as hidden and paused); the site's buttons stay hidden"
 }

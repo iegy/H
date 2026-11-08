@@ -1,9 +1,9 @@
 {
-  "versionCode": 448046,
-  "versionName": "1.16.1",
+  "versionCode": 448588,
+  "versionName": "1.17.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10297408,
-  "sha256": "6c975116c16675b26c9dba4aafc38bd05cf2236aa98dc7cbab8e19a523138f3e",
-  "notesAr": "إصلاح قفلة مفاجئة كانت بتحصل ساعات وانت بتنزّل ملف أو تحدّث التطبيق.",
-  "notesEn": "Fixed a sudden close that could happen while downloading a file or the update."
+  "size": 10354776,
+  "sha256": "26ad8d26ba42f73a8c1aec134dc42823c1c26dba5c280b5454e75bb17a6c70ed",
+  "notesAr": "معاينة الروابط: اضغط مطوّل على أي لينك تطلعلك الصفحة نفسها في كارت من غير تبويب ولا سجل، و«افتح» بيحوّلها لتبويب من نفس المكان.",
+  "notesEn": "Link preview: long-press a link to see the page itself in a card, with no tab and no history; \"Open\" turns it into a tab right where you were."
 }

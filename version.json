@@ -1,9 +1,9 @@
 {
-  "versionCode": 448013,
-  "versionName": "1.16.0",
+  "versionCode": 448046,
+  "versionName": "1.16.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10297408,
-  "sha256": "4a413a666f90de00895b59a7c6f9262e4fb4601f43048f8cec14f7c9163e5504",
-  "notesAr": "شريط بحث سريع بمحركات متعددة فوق الكيبورد (اضغط مطوّل للبحث في الكل) تقدر تختار محركاته وترتبهم وتضيف مواقعك.",
-  "notesEn": "A quick search bar with several engines above the keyboard (long-press to search them all); choose, reorder and add your own sites."
+  "sha256": "6c975116c16675b26c9dba4aafc38bd05cf2236aa98dc7cbab8e19a523138f3e",
+  "notesAr": "إصلاح قفلة مفاجئة كانت بتحصل ساعات وانت بتنزّل ملف أو تحدّث التطبيق.",
+  "notesEn": "Fixed a sudden close that could happen while downloading a file or the update."
 }

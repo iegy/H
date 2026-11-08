@@ -1,9 +1,9 @@
 {
-  "versionCode": 439270,
-  "versionName": "1.15.6",
+  "versionCode": 448013,
+  "versionName": "1.16.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10121212,
-  "sha256": "c8065e738e812fe86678d361ba148641afbafb5ef57ed58f7a9fc8797faedd07",
-  "notesAr": "يوتيوب بيوقّف الفيديو بنفسه في النافذة العائمة (الميزة دي عنده مدفوعة في YouTube Premium)، فحصن مبقاش بيفتح نافذة عائمة مع يوتيوب بدل ما تطلع والفيديو واقف. باقي المواقع زي ما هي",
-  "notesEn": "YouTube stops its own video in a floating window (that is part of YouTube Premium), so Hisn no longer opens one on YouTube instead of showing a stopped video. Other sites are unchanged"
+  "size": 10297408,
+  "sha256": "4a413a666f90de00895b59a7c6f9262e4fb4601f43048f8cec14f7c9163e5504",
+  "notesAr": "شريط بحث سريع بمحركات متعددة فوق الكيبورد (اضغط مطوّل للبحث في الكل) تقدر تختار محركاته وترتبهم وتضيف مواقعك.",
+  "notesEn": "A quick search bar with several engines above the keyboard (long-press to search them all); choose, reorder and add your own sites."
 }

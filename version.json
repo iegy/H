@@ -1,9 +1,9 @@
 {
-  "versionCode": 448588,
-  "versionName": "1.17.0",
+  "versionCode": 449405,
+  "versionName": "1.17.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10354776,
-  "sha256": "26ad8d26ba42f73a8c1aec134dc42823c1c26dba5c280b5454e75bb17a6c70ed",
-  "notesAr": "معاينة الروابط: اضغط مطوّل على أي لينك تطلعلك الصفحة نفسها في كارت من غير تبويب ولا سجل، و«افتح» بيحوّلها لتبويب من نفس المكان.",
-  "notesEn": "Link preview: long-press a link to see the page itself in a card, with no tab and no history; \"Open\" turns it into a tab right where you were."
+  "sha256": "51aa0dbcba0aaad55034acb3ec4014281090aa8bf8fb286b49c572a2469cdaaf",
+  "notesAr": "إصلاح تنزيل الصور من مواقع زي ChatGPT اللي كانت بتقول \"تعذّر حفظ ملف هذه الصفحة\".",
+  "notesEn": "Fixed image downloads on sites like ChatGPT that failed with \"could not save this page's file\"."
 }

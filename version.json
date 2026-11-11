@@ -1,9 +1,9 @@
 {
-  "versionCode": 452406,
-  "versionName": "1.18.3",
+  "versionCode": 452472,
+  "versionName": "1.18.4",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10579972,
-  "sha256": "30e0a37e885f5f2d60533d2c935fb75a104feb43e8d5869580bf55f717f6057d",
-  "notesAr": "إصلاح الصفحة البيضا في مراقبة الصفحات: قائمة المراقبات بقت شاشة جوه حصن بدل نافذة منفصلة، والصفحة بتترسم من جديد أول ما تبدأ تختار.",
-  "notesEn": "Fix the blank page when starting page watch: the watch list is now drawn inside Hisn instead of a separate dialog window, and the page is redrawn when picking starts."
+  "sha256": "4abd9084dc47ebc7706d38d655f3e6fa3ab1d27373049e1497e2fe3d4b7efe38",
+  "notesAr": "الإصلاح الحقيقي للصفحة البيضا في مراقبة الصفحات: شريط الاختيار كان واخد مساحة الصفحة كلها فالصفحة كانت بتتعرض بطول صفر. نفس الإصلاح لاقتراح اللينك المنسوخ.",
+  "notesEn": "The real fix for the blank page in page watch: the pick bar took the page's whole height, leaving the page none. Same fix for the copied-link chip."
 }

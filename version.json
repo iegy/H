@@ -1,9 +1,9 @@
 {
-  "versionCode": 452472,
-  "versionName": "1.18.4",
+  "versionCode": 453469,
+  "versionName": "1.18.5",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10579972,
-  "sha256": "4abd9084dc47ebc7706d38d655f3e6fa3ab1d27373049e1497e2fe3d4b7efe38",
-  "notesAr": "الإصلاح الحقيقي للصفحة البيضا في مراقبة الصفحات: شريط الاختيار كان واخد مساحة الصفحة كلها فالصفحة كانت بتتعرض بطول صفر. نفس الإصلاح لاقتراح اللينك المنسوخ.",
-  "notesEn": "The real fix for the blank page in page watch: the pick bar took the page's whole height, leaving the page none. Same fix for the copied-link chip."
+  "size": 10599768,
+  "sha256": "135c748c2250f8d24c0b33e13ba5f631c44a7214020babd1bbe3316de5e671fe",
+  "notesAr": "تسجيل الدخول بجوجل وآبل ظهر تاني في المواقع زي GitHub، لأن حصن بقى يعرّف نفسه كمتصفح عادي، ومعاه دعم الـ passkeys لو الجهاز بيدعمها. وصفحة «حول حصن» فيها كارت دعم جديد بأرقام إنستا باي وفودافون كاش.",
+  "notesEn": "Sign in with Google and Apple shows again on sites like GitHub, since Hisn now presents itself as an ordinary browser, plus passkeys where the device supports them. The About page has a new support card with InstaPay and Vodafone Cash numbers."
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 453469,
-  "versionName": "1.18.5",
+  "versionCode": 453535,
+  "versionName": "1.18.6",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10599768,
-  "sha256": "135c748c2250f8d24c0b33e13ba5f631c44a7214020babd1bbe3316de5e671fe",
-  "notesAr": "تسجيل الدخول بجوجل وآبل ظهر تاني في المواقع زي GitHub، لأن حصن بقى يعرّف نفسه كمتصفح عادي، ومعاه دعم الـ passkeys لو الجهاز بيدعمها. وصفحة «حول حصن» فيها كارت دعم جديد بأرقام إنستا باي وفودافون كاش.",
-  "notesEn": "Sign in with Google and Apple shows again on sites like GitHub, since Hisn now presents itself as an ordinary browser, plus passkeys where the device supports them. The About page has a new support card with InstaPay and Vodafone Cash numbers."
+  "size": 10606084,
+  "sha256": "df9502ce8ddb16d54add4a7a07d43b4e19ef974e11010118878e4012f4693fcb",
+  "notesAr": "مراقبة الصفحات بقت تفحص في الوقت اللي تحدده: من كل دقيقة لحد كل شهر، أو أي وقت تكتبه بنفسك. وإصلاح قفل المتصفح لما موقع يطلب passkey.",
+  "notesEn": "Page watch now checks as often as you choose, from every minute to every month, or any custom interval. Fixes Hisn closing when a site asked for a passkey."
 }

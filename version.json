@@ -1,9 +1,9 @@
 {
-  "versionCode": 452386,
-  "versionName": "1.18.2",
+  "versionCode": 452406,
+  "versionName": "1.18.3",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10579972,
-  "sha256": "bf2496ec68e6d5d37815f55d1d4a9cca15482097c8561de09304fa293764ce6e",
-  "notesAr": "اختيار الجزء اللي هتراقبه بقى مضمون: لمستك مبتوصلش للصفحة خالص، فمفيش لينك بيتفتح ولا الصفحة بتتغيّر.",
-  "notesEn": "Choosing what to watch is reliable: your tap never reaches the page, so no link opens and the page stays put."
+  "sha256": "30e0a37e885f5f2d60533d2c935fb75a104feb43e8d5869580bf55f717f6057d",
+  "notesAr": "إصلاح الصفحة البيضا في مراقبة الصفحات: قائمة المراقبات بقت شاشة جوه حصن بدل نافذة منفصلة، والصفحة بتترسم من جديد أول ما تبدأ تختار.",
+  "notesEn": "Fix the blank page when starting page watch: the watch list is now drawn inside Hisn instead of a separate dialog window, and the page is redrawn when picking starts."
 }

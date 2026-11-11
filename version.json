@@ -1,9 +1,9 @@
 {
-  "versionCode": 453535,
-  "versionName": "1.18.6",
+  "versionCode": 453586,
+  "versionName": "1.18.7",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10606084,
-  "sha256": "df9502ce8ddb16d54add4a7a07d43b4e19ef974e11010118878e4012f4693fcb",
-  "notesAr": "مراقبة الصفحات بقت تفحص في الوقت اللي تحدده: من كل دقيقة لحد كل شهر، أو أي وقت تكتبه بنفسك. وإصلاح قفل المتصفح لما موقع يطلب passkey.",
-  "notesEn": "Page watch now checks as often as you choose, from every minute to every month, or any custom interval. Fixes Hisn closing when a site asked for a passkey."
+  "sha256": "26cddafaaf9db02266c970ae2093936f0128ac73c92129594cb446a0791d313a",
+  "notesAr": "رجّعنا زراير تسجيل الدخول بجوجل وآبل في المواقع زي GitHub، من غير ما المتصفح يقفل.",
+  "notesEn": "Sign in with Google and Apple shows again on sites like GitHub, without the crash."
 }

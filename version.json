@@ -1,9 +1,9 @@
 {
-  "versionCode": 452162,
-  "versionName": "1.17.3",
+  "versionCode": 452269,
+  "versionName": "1.18.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10478344,
-  "sha256": "ad663749f2c8fef94739959adb639fce3ad4be2f6f687e67bee0c7dbb19d20f6",
-  "notesAr": "حصن بقى متوافق مع أندرويد 16، ومش هتظهر رسالة \"غير متوافق مع إصدار الأندرويد\" تاني.",
-  "notesEn": "Hisn is now compatible with Android 16; the \"not compatible with this Android version\" message no longer appears."
+  "size": 10563228,
+  "sha256": "b341e74cca12b5ab3aacc039ae912a63252e64ea760be153c196f89bbf9cbf43",
+  "notesAr": "مجموعات التبويبات: اسم ولون لكل مجموعة، تطويها وتفتحها من شريط التبويبات، وبتتحفظ مع التبويبات.",
+  "notesEn": "Tab groups: a name and colour for each group, fold and unfold them in the tab strip, kept with your tabs."
 }

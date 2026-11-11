@@ -1,9 +1,9 @@
 {
-  "versionCode": 452312,
-  "versionName": "1.18.1",
+  "versionCode": 452386,
+  "versionName": "1.18.2",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10579612,
-  "sha256": "d3df2ebb46d5bf71c1888e69a3bec979413cf7b5aea4376a877bdecd27634526",
-  "notesAr": "إصلاح اختيار الجزء اللي هتراقبه: اللمسة مبقتش بتفتح لينكات الصفحة، ولو الصفحة اتحمّلت تاني الاختيار بيكمّل.",
-  "notesEn": "Fixed choosing what to watch: a tap no longer opens the page's links, and choosing carries on if the page reloads."
+  "size": 10579972,
+  "sha256": "bf2496ec68e6d5d37815f55d1d4a9cca15482097c8561de09304fa293764ce6e",
+  "notesAr": "اختيار الجزء اللي هتراقبه بقى مضمون: لمستك مبتوصلش للصفحة خالص، فمفيش لينك بيتفتح ولا الصفحة بتتغيّر.",
+  "notesEn": "Choosing what to watch is reliable: your tap never reaches the page, so no link opens and the page stays put."
 }

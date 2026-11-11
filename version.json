@@ -1,9 +1,9 @@
 {
-  "versionCode": 452153,
-  "versionName": "1.17.2",
+  "versionCode": 452162,
+  "versionName": "1.17.3",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10354776,
-  "sha256": "208288737259de1df263fee8d594233e1e5d380bf883824bb87c9ae4b480f36e",
-  "notesAr": "إصلاح قفلة كانت بتحصل ساعات وانت بتفتح لينكات زي لينكات GitHub.",
-  "notesEn": "Fixed a crash that could happen when opening some links, such as GitHub links."
+  "size": 10478344,
+  "sha256": "ad663749f2c8fef94739959adb639fce3ad4be2f6f687e67bee0c7dbb19d20f6",
+  "notesAr": "حصن بقى متوافق مع أندرويد 16، ومش هتظهر رسالة \"غير متوافق مع إصدار الأندرويد\" تاني.",
+  "notesEn": "Hisn is now compatible with Android 16; the \"not compatible with this Android version\" message no longer appears."
 }

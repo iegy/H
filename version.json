@@ -1,9 +1,9 @@
 {
-  "versionCode": 449405,
-  "versionName": "1.17.1",
+  "versionCode": 452153,
+  "versionName": "1.17.2",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10354776,
-  "sha256": "51aa0dbcba0aaad55034acb3ec4014281090aa8bf8fb286b49c572a2469cdaaf",
-  "notesAr": "إصلاح تنزيل الصور من مواقع زي ChatGPT اللي كانت بتقول \"تعذّر حفظ ملف هذه الصفحة\".",
-  "notesEn": "Fixed image downloads on sites like ChatGPT that failed with \"could not save this page's file\"."
+  "sha256": "208288737259de1df263fee8d594233e1e5d380bf883824bb87c9ae4b480f36e",
+  "notesAr": "إصلاح قفلة كانت بتحصل ساعات وانت بتفتح لينكات زي لينكات GitHub.",
+  "notesEn": "Fixed a crash that could happen when opening some links, such as GitHub links."
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 452269,
-  "versionName": "1.18.0",
+  "versionCode": 452312,
+  "versionName": "1.18.1",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10563228,
-  "sha256": "b341e74cca12b5ab3aacc039ae912a63252e64ea760be153c196f89bbf9cbf43",
-  "notesAr": "مجموعات التبويبات: اسم ولون لكل مجموعة، تطويها وتفتحها من شريط التبويبات، وبتتحفظ مع التبويبات.",
-  "notesEn": "Tab groups: a name and colour for each group, fold and unfold them in the tab strip, kept with your tabs."
+  "size": 10579612,
+  "sha256": "d3df2ebb46d5bf71c1888e69a3bec979413cf7b5aea4376a877bdecd27634526",
+  "notesAr": "إصلاح اختيار الجزء اللي هتراقبه: اللمسة مبقتش بتفتح لينكات الصفحة، ولو الصفحة اتحمّلت تاني الاختيار بيكمّل.",
+  "notesEn": "Fixed choosing what to watch: a tap no longer opens the page's links, and choosing carries on if the page reloads."
 }

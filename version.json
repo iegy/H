@@ -1,9 +1,9 @@
 {
-  "versionCode": 453680,
-  "versionName": "1.18.9",
+  "versionCode": 453698,
+  "versionName": "1.18.10",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
   "size": 10684288,
-  "sha256": "19f0379c6b869275d757e71985f2adc90816bd4244a51d40006ac6d1d08f6a81",
-  "notesAr": "أول مرة تفتح حصن بيطلب منك عهد: ألّا تستخدمه فيما يُغضب الله، وأن تتذكّر أن الله يراك. والعهد موجود كمان في «عن حصن».",
-  "notesEn": "The first time Hisn opens it asks for a pledge: not to use it in anything that displeases God, and to remember that God sees you. The pledge is also in \"About Hisn\"."
+  "sha256": "316c3a25c666c1ceaa2d1807f078fe1552491b3ab1af9693397d3bddc398f2f6",
+  "notesAr": "أسماء أجهزة البيت زي router.lan وprinter.local بتتفتح http على طول بدل https.",
+  "notesEn": "Home-network names like router.lan and printer.local open over http instead of https."
 }

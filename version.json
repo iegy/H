@@ -1,9 +1,9 @@
 {
-  "versionCode": 453830,
-  "versionName": "1.20.0",
+  "versionCode": 453870,
+  "versionName": "1.21.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10703972,
-  "sha256": "8f199b4bb977ed50710e3577930f8770334cd39fb5046da2a1ec6eeb4b2f1d25",
-  "notesAr": "«ابعته لجهازك» في قايمة الصفحة: الصفحة بتتفتح على حصن ويندوز أو جهازك التاني مع المزامنة.",
-  "notesEn": "\"Send to device\" in the page menu: the page opens on Hisn for Windows or your other device with sync."
+  "size": 10725120,
+  "sha256": "9456583d7303ac2fd02f81b9f9c79c4c2017f0483e429f967c4d184add1f6011",
+  "notesAr": "شكل جديد للتبويبات زي كروم: كروت فيها صورة الموقع، والتبويب الحالي ملوّن، والمجموعة كارت واحد فيه 4 صفحات، وفوق: إغلاق وقايمة وبحث ومبدّل التبويبات والمجموعات وزرار + كبير. والقايمة فيها: تبويب جديد، نافذة جديدة، نافذة متخفية، مجموعة جديدة، إغلاق الكل، اختيار التبويبات، حذف بيانات التصفح، والإعدادات.",
+  "notesEn": "A new Chrome-style tab grid: cards showing the page, the current tab filled with colour, a group as one card with four pages, and on top: close, menu, search, a tabs/groups switch and a big + button. The menu has new tab, new window, new private window, new group, close all, select tabs, delete browsing data and settings."
 }

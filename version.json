@@ -1,9 +1,9 @@
 {
-  "versionCode": 453812,
-  "versionName": "1.19.0",
+  "versionCode": 453830,
+  "versionName": "1.20.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10685456,
-  "sha256": "1f432c5904767c914a66756585cb55c2260ef2c0adb4b144943a5e0c2952dfe1",
-  "notesAr": "التبويبات اللي بتبعتها من حصن ويندوز بتتفتح على الموبايل مع أول مزامنة.",
-  "notesEn": "Tabs sent from Hisn for Windows open on the phone at its next sync."
+  "size": 10703972,
+  "sha256": "8f199b4bb977ed50710e3577930f8770334cd39fb5046da2a1ec6eeb4b2f1d25",
+  "notesAr": "«ابعته لجهازك» في قايمة الصفحة: الصفحة بتتفتح على حصن ويندوز أو جهازك التاني مع المزامنة.",
+  "notesEn": "\"Send to device\" in the page menu: the page opens on Hisn for Windows or your other device with sync."
 }

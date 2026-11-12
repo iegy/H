@@ -81,7 +81,7 @@
       <div class="platforms">
         <a class="plat primary" href="download/Hisn.apk"><svg><use href="#i-android"/></svg><span>أندرويد <small>APK · <span data-hisn="size">11</span> ميجا</small></span></a>
         <div class="cta-win" data-hisn="win">
-          <span class="plat" aria-disabled="true" style="opacity:.6;cursor:default"><svg><use href="#i-win"/></svg><span>ويندوز <small>قريبًا</small></span></span>
+          <a class="plat" href="https://github.com/egytop/H-releases/releases/latest/download/Hisn-Setup.exe"><svg><use href="#i-win"/></svg><span>ويندوز <small>EXE · <span data-hisn="win-size">118</span> ميجا</small></span></a>
         </div>
         <a class="plat" href="#extensions"><svg><use href="#i-puzzle"/></svg><span>متجر الإضافات</span></a>
       </div>
@@ -344,13 +344,15 @@
         <li><h3>اسمح بالتثبيت</h3><p>افتح الملف. لو أندرويد طلب السماح بتثبيت التطبيقات من المتصفح أو مدير الملفات، وافق مرة واحدة.</p></li>
         <li><h3>افتح حصن</h3><p>اضغط «تثبيت» وبعدين «فتح». وتقدر تخليه المتصفح الافتراضي من الإعدادات.</p></li>
       </ol>
+      <p class="sub" style="margin-top:16px"><b>على ويندوز:</b> حمّل Hisn-Setup.exe وشغّله. لو ظهرت رسالة «حمى Windows جهاز الكمبيوتر» اضغط «مزيد من المعلومات» وبعدين «تشغيل على أي حال» (البرنامج لسه من غير توقيع رقمي). بعد التثبيت بيحدّث نفسه لوحده.</p>
       <div class="card dark dl rv" style="margin-top:20px">
         <dl>
           <dt>الإصدار</dt><dd data-hisn="version">1.18.8 (453625)</dd>
           <dt>الحجم</dt><dd><span data-hisn="size">11</span> ميجابايت</dd>
           <dt>يتطلب</dt><dd>أندرويد 9 أو أحدث</dd>
           <dt>SHA-256</dt><dd><code data-hisn="sha">b2b4dcb4798ca313055a77bb578184ae4d371047b188d698270a89a959011ae1</code></dd>
-          <dt>ويندوز SHA-256</dt><dd><code data-hisn="win-sha">9b017c73f6faac8dc00740cea0016e350341cc332569a13f2e177037d33a18fa</code></dd>
+          <dt>إصدار ويندوز</dt><dd data-hisn="win-version">2.1.1</dd>
+          <dt>ويندوز SHA-256</dt><dd><code data-hisn="win-sha">—</code></dd>
         </dl>
         <a class="btn" href="download/Hisn.apk"><svg><use href="#i-dl"/></svg>تحميل APK</a>
       </div>
@@ -381,7 +383,7 @@
     <p>اتصفّح واتفرّج وحمّل، واقفل الباب في وش الإعلانات والمتتبعات، وزوّد حصن بالإضافات اللي تعجبك.</p>
     <div class="row">
       <a href="download/Hisn.apk"><svg><use href="#i-android"/></svg>أندرويد</a>
-      <a href="#hero-title"><svg><use href="#i-win"/></svg>ويندوز</a>
+      <a href="https://github.com/egytop/H-releases/releases/latest/download/Hisn-Setup.exe"><svg><use href="#i-win"/></svg>ويندوز</a>
     </div>
   </div>
   <svg class="wave" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 40V22c120-14 240-14 360 0s240 14 360 0 240-14 360 0 240 14 360 0v18z"/></svg>
@@ -396,7 +398,7 @@
     </div>
     <div class="cols">
       <div><h4>الخصائص</h4><a href="#video">الفيديو والتحميل</a><a href="#blocking">حجب الإعلانات</a><a href="#extensions">الإضافات</a><a href="#privacy">الخصوصية</a></div>
-      <div><h4>حمّل</h4><a href="download/Hisn.apk">أندرويد</a><a href="#hero-title">ويندوز</a><a href="#install">طريقة التثبيت</a><a href="https://iegy.net/jisr">جسر (تطبيق مستقل)</a></div>
+      <div><h4>حمّل</h4><a href="download/Hisn.apk">أندرويد</a><a href="https://github.com/egytop/H-releases/releases/latest/download/Hisn-Setup.exe">ويندوز</a><a href="#install">طريقة التثبيت</a><a href="https://iegy.net/jisr">جسر (تطبيق مستقل)</a></div>
       <div><h4>مساعدة</h4><a href="#faq">أسئلة شائعة</a><a href="#compare">المقارنة</a><a href="privacy.html">سياسة الخصوصية</a></div>
       <div><h4>اللغة</h4><a href="./">العربية</a><a href="en/" hreflang="en" lang="en">English</a></div>
     </div>
@@ -407,6 +409,21 @@
   </div>
 </footer>
 
+<script>
+// Hisn for Windows: the button always downloads the newest installer; its version, size and SHA-256 come from the release.
+(function () {
+  fetch('https://api.github.com/repos/egytop/H-releases/releases/latest').then(function (r) { return r.ok ? r.json() : null; }).then(function (rel) {
+    if (!rel) return;
+    var a = (rel.assets || []).filter(function (x) { return x.name === 'Hisn-Setup.exe'; })[0];
+    var set = function (k, v) { document.querySelectorAll('[data-hisn="' + k + '"]').forEach(function (e) { e.textContent = v; }); };
+    set('win-version', String(rel.tag_name || '').replace(/^v/, ''));
+    if (a) {
+      set('win-size', Math.ceil(a.size / 1048576));
+      if (a.digest) set('win-sha', String(a.digest).replace(/^sha256:/, ''));
+    }
+  }).catch(function () {});
+})();
+</script>
 <script>
 (function () {
   var els = document.querySelectorAll('.rv');

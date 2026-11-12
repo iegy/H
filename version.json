@@ -1,9 +1,9 @@
 {
-  "versionCode": 453698,
-  "versionName": "1.18.10",
+  "versionCode": 453812,
+  "versionName": "1.19.0",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10684288,
-  "sha256": "316c3a25c666c1ceaa2d1807f078fe1552491b3ab1af9693397d3bddc398f2f6",
-  "notesAr": "أسماء أجهزة البيت زي router.lan وprinter.local بتتفتح http على طول بدل https.",
-  "notesEn": "Home-network names like router.lan and printer.local open over http instead of https."
+  "size": 10685456,
+  "sha256": "1f432c5904767c914a66756585cb55c2260ef2c0adb4b144943a5e0c2952dfe1",
+  "notesAr": "التبويبات اللي بتبعتها من حصن ويندوز بتتفتح على الموبايل مع أول مزامنة.",
+  "notesEn": "Tabs sent from Hisn for Windows open on the phone at its next sync."
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 453586,
-  "versionName": "1.18.7",
+  "versionCode": 453625,
+  "versionName": "1.18.8",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10606084,
-  "sha256": "26cddafaaf9db02266c970ae2093936f0128ac73c92129594cb446a0791d313a",
-  "notesAr": "رجّعنا زراير تسجيل الدخول بجوجل وآبل في المواقع زي GitHub، من غير ما المتصفح يقفل.",
-  "notesEn": "Sign in with Google and Apple shows again on sites like GitHub, without the crash."
+  "size": 10681232,
+  "sha256": "b2b4dcb4798ca313055a77bb578184ae4d371047b188d698270a89a959011ae1",
+  "notesAr": "مراقبة الصفحات بقت احترافية: شروط (السعر ينزل، يوصل لرقم معيّن، كلمة تظهر أو تختفي)، تنبيه منبثق بصوت فوق أي تطبيق، سجل القيم ورسم للأسعار، بحث وفلترة وترتيب وتحكم في الكل. التنزيلات اللي المواقع كانت بترفضها (زي كتب هنداوي على صفحات) بتتنزل دلوقتي بمحرك المتصفح نفسه. ومحاولة جديدة لرجوع زراير Google وApple.",
+  "notesEn": "Page watch goes pro: conditions (price drops, reaches a target, text appears or disappears), pop-up alerts with sound over any app, value history with a price chart, search, filters, sorting and bulk actions. Downloads that sites refused (like Hindawi books on Safahat) now go through the browser engine itself. Another fix for the missing Google and Apple sign-in buttons."
 }

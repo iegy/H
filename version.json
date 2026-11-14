@@ -1,9 +1,9 @@
 {
-  "versionCode": 453894,
-  "versionName": "1.21.1",
+  "versionCode": 457585,
+  "versionName": "1.21.2",
   "apkUrl": "https://raw.githubusercontent.com/iegy/H/main/download/Hisn.apk",
-  "size": 10742416,
-  "sha256": "726a8eef3036a092a129c82459f6c90ad48b6627a94616362e4782b178a36cfb",
-  "notesAr": "سحب وإفلات في شبكة التبويبات: سيب التبويب على تبويب تاني يعملوا مجموعة، أو على مجموعة يدخلها، أو جنب تبويب يتنقل مكانه، أو تحت على «سيبه هنا» يتقفل. ودوسة طويلة من غير سحب بتختار التبويبات. وشريط الموبايل اتظبط ومفيش حاجة فوق بعض.",
-  "notesEn": "Drag and drop in the tab grid: drop a tab on another to group them, on a group to join it, beside a tab to move it, or on the bin to close it. A long press without dragging selects tabs. The phone's top bar no longer overlaps."
+  "size": 10742412,
+  "sha256": "fe3ffdda141974879ec5f8f3b42e78f0ae77336b984ae909e38f5f28f44f25b6",
+  "notesAr": "على مواقع البث المدفوعة (شاهد ونتفليكس وOSN…) حصن مبقاش بيمنع حاجة ولا بيقفل الكوكيز اللي سيرفر الحماية محتاجها. وصفحة «الاتصال غير آمن» بقت بتظهر بس لو الصفحة نفسها شهادتها مش سليمة، مش لو ملف جانبي من موقع تاني (زي اللي نتفليكس بتجربه) فشل.",
+  "notesEn": "On subscription streaming sites (Shahid, Netflix, OSN…) Hisn no longer blocks anything or the cookies their licence servers need. The \"connection not secure\" page now shows only when the page itself has a bad certificate, not when a resource from another site fails (as one Netflix probes on purpose)."
 }

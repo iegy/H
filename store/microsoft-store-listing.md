@@ -26,6 +26,11 @@
 • تحذير واضح للمواقع اللي شهادتها فيها مشكلة.
 • مدير كلمات سر مشفّر بحماية ويندوز، مع فحص كلمات السر المسرّبة.
 
+التقويم
+• تقويم بعرض يوم وأسبوع وشهر وجدول، والهجري جنب الميلادي، ورمضان والأعياد والمناسبات.
+• اكتب الموعد بالكلام: «دكتور الخميس 7 بالليل»، وتنبيه قبل كل موعد، ومواقيت الصلاة على اليوم.
+• اشترك في تقويم جوجل أو أوتلوك، واستورد ملفات .ics.
+
 حارس — مساعدك جوه المتصفح
 • اسأله بأي صياغة: «افتح الإعدادات»، «اكتم التاب ده»، «لخّصلي الصفحة»، وهو ينفّذ.
 
@@ -51,6 +56,7 @@
 
 **مميزات (Product features، لحد 20):**
 - حجب الإعلانات والمتتبعات
+- تقويم بالهجري والمناسبات
 - حاجب المواقع بالفئات
 - حارس: مساعد ذكي يفهم طلباتك
 - تبويبات رأسية وتقسيم الشاشة
@@ -88,6 +94,11 @@ Protection
 • Clear warnings for sites with certificate problems.
 • A password manager encrypted with Windows data protection, with a leaked-password check.
 
+Calendar
+• Day, week, month and schedule views, with Hijri dates, Ramadan, Eids and holidays.
+• Type events in plain words: “dentist Thursday 7pm”, get reminders, and see prayer times on the day.
+• Subscribe to Google or Outlook calendars, and import .ics files.
+
 Haris — your assistant inside the browser
 • Ask any way you like: "open settings", "mute this tab", "summarise this page", and it does it.
 
@@ -113,6 +124,7 @@ Designed and built by Mohammed Hussein — iegy.net
 
 **Product features (up to 20):**
 - Ad and tracker blocking
+- Calendar with Hijri dates and occasions
 - Site blocker by category
 - Haris: a smart assistant that understands you
 - Vertical tabs and split view
